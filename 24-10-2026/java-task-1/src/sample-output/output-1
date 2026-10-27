@@ -1,0 +1,191 @@
+=================================================
+ E-COMMERCE APPLICATION - VALIDATION RUN
+=================================================
+
+[QUERY 1] Find customer by ID
+Customer ID: 101
+Name: Arun Kumar
+Email: arun@example.com
+Phone: 9876543210
+City: Hyderabad
+State: Telangana
+
+[QUERY 2] Find customers by name
+101 | Arun Kumar | arun@example.com | 9876543210
+
+[QUERY 3] Find customers by city
+101 | Arun Kumar | arun@example.com | 9876543210
+
+[QUERY 4] Find customer by email
+Customer ID: 102
+Name: Priya Sharma
+Email: priya@example.com
+Phone: 9876543211
+City: Vijayawada
+State: Andhra Pradesh
+
+[QUERY 5] Find customer by phone number
+Customer ID: 103
+Name: Rahul Verma
+Email: rahul@example.com
+Phone: 9876543212
+City: Chennai
+State: Tamil Nadu
+
+[QUERY 6] Find product by ID
+Product ID: 501
+Name: Laptop
+Company: Dell
+Price: 55000.00
+
+[QUERY 7] Find products by name
+ID: 502 | Name: Wireless Mouse | Company: Logitech | Price: 800.00
+
+[QUERY 8] Find product by name and price
+ID: 502 | Name: Wireless Mouse | Company: Logitech | Price: 800.00
+
+[QUERY 9] Find products within a price range
+ID: 502 | Name: Wireless Mouse | Company: Logitech | Price: 800.00
+
+[QUERY 10] Find products by name and company
+ID: 502 | Name: Wireless Mouse | Company: Logitech | Price: 800.00
+
+[QUERY 11] Find products by name, price, and company
+ID: 502 | Name: Wireless Mouse | Company: Logitech | Price: 800.00
+
+[QUERY 12] Find a product from another category
+Product ID: 539
+Name: Action Camera
+Company: GoPro
+Price: 18000.00
+
+[QUERY 13] Retrieve customer 101 cart
+Laptop | Quantity: 1 | Subtotal: 55000.00
+Wireless Mouse | Quantity: 2 | Subtotal: 1600.00
+Cart total: 56600.00
+
+[QUERY 14] Calculate cart total
+Customer 101 cart total: 56600.00
+
+[QUERY 15] Add, update, and remove a cart item
+After adding USB-C Cable:
+USB-C Cable | Quantity: 1 | Subtotal: 450.00
+Laptop | Quantity: 1 | Subtotal: 55000.00
+Wireless Mouse | Quantity: 2 | Subtotal: 1600.00
+Cart total: 57050.00
+After changing USB-C Cable quantity to 2:
+USB-C Cable | Quantity: 2 | Subtotal: 900.00
+Laptop | Quantity: 1 | Subtotal: 55000.00
+Wireless Mouse | Quantity: 2 | Subtotal: 1600.00
+Cart total: 57500.00
+After removing USB-C Cable:
+Laptop | Quantity: 1 | Subtotal: 55000.00
+Wireless Mouse | Quantity: 2 | Subtotal: 1600.00
+Cart total: 56600.00
+
+[QUERY 16] Retrieve customer 111 empty cart
+Cart is empty.
+
+[QUERY 17] Customer 101 order history
+Order ID: 1001
+Customer: Arun Kumar
+Subtotal: 56600.00
+Shipping: 100.00
+Total: 56700.00
+Order Status: IN_TRANSIT
+Payment Status: PENDING
+------------------------------
+
+[QUERY 18] Find order by ID
+Order ID: 1001
+Customer: Arun Kumar
+Subtotal: 56600.00
+Shipping: 100.00
+Total: 56700.00
+Order Status: IN_TRANSIT
+Payment Status: PENDING
+
+[QUERY 19] Find shipment by tracking ID
+Shipment ID: 2001
+Tracking ID: TRK-DL-1001
+Courier: Delhivery
+Order ID: 1001
+Order Status: IN_TRANSIT
+
+[QUERY 20] Check order delivery status
+Order ID: 1001
+Status: IN_TRANSIT
+
+[QUERY 21] Checkout using UPI
+Order ID: 1003
+Customer: Priya Sharma
+Subtotal: 7800.00
+Shipping: 100.00
+Total: 7900.00
+Order Status: PLACED
+Payment Status: PAID
+
+[QUERY 22] Checkout using debit card
+Order ID: 1004
+Customer: Sneha Reddy
+Subtotal: 55900.00
+Shipping: 100.00
+Total: 56000.00
+Order Status: PLACED
+Payment Status: PAID
+
+[QUERY 23] Checkout using credit card
+Order ID: 1005
+Customer: Arun Kumar
+Subtotal: 56600.00
+Shipping: 100.00
+Total: 56700.00
+Order Status: PLACED
+Payment Status: PAID
+
+[QUERY 24] Checkout using cash on delivery
+Order ID: 1006
+Customer: Kiran Rao
+Subtotal: 29800.00
+Shipping: 100.00
+Total: 29900.00
+Order Status: PLACED
+Payment Status: PENDING
+
+[QUERY 25] Checkout using a gift card
+Order ID: 1007
+Customer: Rahul Verma
+Subtotal: 14200.00
+Shipping: 100.00
+Total: 14300.00
+Order Status: PLACED
+Payment Status: PAID
+
+[QUERY 26] Check gift card balance
+Remaining gift card balance: 45700.00
+
+[QUERY 27] Check payment statuses
+UPI order: PAID
+Debit card order: PAID
+Credit card order: PAID
+COD order: PENDING
+Gift card order: PAID
+
+[QUERY 28] Mark order 1002 in transit
+Order 1002 status: IN_TRANSIT
+
+[QUERY 29] Mark order 1002 delivered
+Order 1002 status: DELIVERED
+
+[QUERY 30] Final shipment status check
+Shipment ID: 2002
+Tracking ID: TRK-BL-1002
+Courier: Blue Dart
+Order ID: 1002
+Order Status: DELIVERED
+
+=================================================
+VALIDATION DEMONSTRATION COMPLETED
+=================================================
+
+Process finished with exit code 0
