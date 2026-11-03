@@ -1,0 +1,3 @@
+A file created for the purpose of demonstrating CharacterStreams 
+and understanding classes 
+Like FileReader, BufferedReader, FileWriter, BufferedWriter etc.

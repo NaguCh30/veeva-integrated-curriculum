@@ -1,0 +1,4 @@
+STUDENT DETAILS
+Name: Nagu
+Course: B.Tech CSE
+Year: 3
