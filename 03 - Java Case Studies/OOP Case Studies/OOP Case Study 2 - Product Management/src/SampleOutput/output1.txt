@@ -1,0 +1,660 @@
+---------- MENU ----------
+1. Add a product
+2. Update a product
+3. Search a product by Product ID
+4. Delete a product by Product ID
+5. Get all products based on Price in Descending Order
+6. Get all products based on given Price Range in Descending Order
+7. Get all products based on Price and Manufactung date descending Order
+8. Get all products matching to a specific name
+9. Get all products manufactured on specific date
+10. Get all products matching to a specific price
+11. Get all products with specific name, company, and price
+12. Get top k products based on price
+13. Get least k products based on price
+14. Display all products
+0. Exit
+
+Enter your choice: 1
+
+Enter product name: Wireless Mouse
+Enter product price: 599.00
+Enter manufacturing date (yyyy-MM-dd): 2025-08-15
+Enter quantity in hand: 120
+Enter company name: Logitech
+Product added successfully!
+
+Enter your choice: 1
+
+Enter product name: Mechanical Keyboard
+Enter product price: 2499.00
+Enter manufacturing date (yyyy-MM-dd): 	2025-07-20
+Invalid date format! Please use yyyy-MM-dd.
+
+Enter your choice: 1
+
+Enter product name: Mechanical Keyboard
+Enter product price: 2499.00
+Enter manufacturing date (yyyy-MM-dd): 2025-07-20
+Enter quantity in hand: 145
+Enter company name: HP
+Product added successfully!
+
+Enter your choice: 1
+
+Enter product name: Bluetooth Headphones
+Enter product price: 1799.00
+Enter manufacturing date (yyyy-MM-dd): 2025-09-10
+Enter quantity in hand: 180
+Enter company name: boAt
+Product added successfully!
+
+Enter your choice: 1
+
+Enter product name: Samsung SSD 1TB
+Enter product price: 6499.00
+Enter manufacturing date (yyyy-MM-dd): 2025-06-12
+Enter quantity in hand: 30
+Enter company name: Samsung
+Quantity in Hand should not be less than 100
+
+Enter your choice: 1
+
+Enter product name: USB-C Charger
+Enter product price: 899.00
+Enter manufacturing date (yyyy-MM-dd): 2025-10-05
+Enter quantity in hand: 150
+Enter company name: 	Anker
+Product added successfully!
+
+Enter your choice: 1
+
+Enter product name: Smart Watch
+Enter product price: 3299.00
+Enter manufacturing date (yyyy-MM-dd): 2025-08-25
+Enter quantity in hand: 165
+Enter company name: Noise
+Product added successfully!
+
+Enter your choice: 1
+
+Enter product name: LED Monitor 24-inch
+Enter product price: 8999.00
+Enter manufacturing date (yyyy-MM-dd): 	2025-05-18
+Invalid date format! Please use yyyy-MM-dd.
+
+Enter your choice: 1
+
+Enter product name: LED Monitor 24-inch
+Enter product price: 8999.00
+Enter manufacturing date (yyyy-MM-dd): 2025-05-18
+Enter quantity in hand: 120
+Enter company name: Dell
+Product added successfully!
+
+Enter your choice: 1
+
+Enter product name: Power Bank 20000mAh
+Enter product price: 1599.00
+Enter manufacturing date (yyyy-MM-dd): 2025-09-22
+Enter quantity in hand: 90
+Enter company name: Xiaomi
+Quantity in Hand should not be less than 100
+
+Enter your choice: 1
+
+Enter product name: Laptop Stand
+Enter product price: 799.00
+Enter manufacturing date (yyyy-MM-dd): 2025-07-11
+Enter quantity in hand: 155
+Enter company name: Portronics
+Product added successfully!
+
+Enter your choice: 1
+
+Enter product name: Power Bank 20000mAh
+Enter product price: 1599.00
+Enter manufacturing date (yyyy-MM-dd): 2025-09-22
+Enter quantity in hand: 90
+Enter company name: Xiaomi
+Quantity in Hand should not be less than 100
+
+Enter your choice: 1
+
+Enter product name: Power Bank 20000mAh
+Enter product price: 1599.00
+Enter manufacturing date (yyyy-MM-dd): 2025-09-22
+Enter quantity in hand: 190
+Enter company name: Xiaomi
+Product added successfully!
+
+Enter your choice: 1
+
+Enter product name: Webcam 1080p
+Enter product price: 2199.00
+Enter manufacturing date (yyyy-MM-dd): 	2025-10-15
+Invalid date format! Please use yyyy-MM-dd.
+
+Enter your choice: 1
+
+Enter product name: Webcam 1080p
+Enter product price: 2199.00
+Enter manufacturing date (yyyy-MM-dd): 2025-10-15
+Enter quantity in hand: 140
+Enter company name: Lenovo
+Product added successfully!
+
+Enter your choice: 14
+
+ID: 1008
+Name: Power Bank 20000mAh
+Price: 1599.0
+Manufacturing Date: 2025-09-22
+Quantity: 190
+Company: Xiaomi
+-------------------------------
+
+ID: 1009
+Name: Webcam 1080p
+Price: 2199.0
+Manufacturing Date: 2025-10-15
+Quantity: 140
+Company: Lenovo
+-------------------------------
+
+ID: 1001
+Name: Wireless Mouse
+Price: 599.0
+Manufacturing Date: 2025-08-15
+Quantity: 120
+Company: Logitech
+-------------------------------
+
+ID: 1002
+Name: Mechanical Keyboard
+Price: 2499.0
+Manufacturing Date: 2025-07-20
+Quantity: 145
+Company: HP
+-------------------------------
+
+ID: 1003
+Name: Bluetooth Headphones
+Price: 1799.0
+Manufacturing Date: 2025-09-10
+Quantity: 180
+Company: boAt
+-------------------------------
+
+ID: 1004
+Name: USB-C Charger
+Price: 899.0
+Manufacturing Date: 2025-10-05
+Quantity: 150
+Company: 	Anker
+-------------------------------
+
+ID: 1005
+Name: Smart Watch
+Price: 3299.0
+Manufacturing Date: 2025-08-25
+Quantity: 165
+Company: Noise
+-------------------------------
+
+ID: 1006
+Name: LED Monitor 24-inch
+Price: 8999.0
+Manufacturing Date: 2025-05-18
+Quantity: 120
+Company: Dell
+-------------------------------
+
+ID: 1007
+Name: Laptop Stand
+Price: 799.0
+Manufacturing Date: 2025-07-11
+Quantity: 155
+Company: Portronics
+-------------------------------
+
+Enter your choice: 2
+
+Enter Product ID you want to update: 1008
+Enter product name: Power Bank 30000mAh
+Enter product price: 5000
+Enter quantity in hand: 178
+Enter company name: Samsung
+Product updated successfully!
+Updated Product:
+
+ID: 1008
+Name: Power Bank 20000mAh
+Price: 5000.0
+Manufacturing Date: 2025-09-22
+Quantity: 178
+Company: Samsung
+-------------------------------
+
+Enter your choice: 14
+
+
+ID: 1008
+Name: Power Bank 20000mAh
+Price: 5000.0
+Manufacturing Date: 2025-09-22
+Quantity: 178
+Company: Samsung
+-------------------------------
+
+ID: 1009
+Name: Webcam 1080p
+Price: 2199.0
+Manufacturing Date: 2025-10-15
+Quantity: 140
+Company: Lenovo
+-------------------------------
+
+ID: 1001
+Name: Wireless Mouse
+Price: 599.0
+Manufacturing Date: 2025-08-15
+Quantity: 120
+Company: Logitech
+-------------------------------
+
+ID: 1002
+Name: Mechanical Keyboard
+Price: 2499.0
+Manufacturing Date: 2025-07-20
+Quantity: 145
+Company: HP
+-------------------------------
+
+ID: 1003
+Name: Bluetooth Headphones
+Price: 1799.0
+Manufacturing Date: 2025-09-10
+Quantity: 180
+Company: boAt
+-------------------------------
+
+ID: 1004
+Name: USB-C Charger
+Price: 899.0
+Manufacturing Date: 2025-10-05
+Quantity: 150
+Company: 	Anker
+-------------------------------
+
+ID: 1005
+Name: Smart Watch
+Price: 3299.0
+Manufacturing Date: 2025-08-25
+Quantity: 165
+Company: Noise
+-------------------------------
+
+ID: 1006
+Name: LED Monitor 24-inch
+Price: 8999.0
+Manufacturing Date: 2025-05-18
+Quantity: 120
+Company: Dell
+-------------------------------
+
+ID: 1007
+Name: Laptop Stand
+Price: 799.0
+Manufacturing Date: 2025-07-11
+Quantity: 155
+Company: Portronics
+-------------------------------
+
+Enter your choice: Please enter a valid integer!
+
+Enter your choice: 3
+Enter product ID to search: 1008
+
+ID: 1008
+Name: Power Bank 20000mAh
+Price: 5000.0
+Manufacturing Date: 2025-09-22
+Quantity: 178
+Company: Samsung
+-------------------------------
+
+Enter your choice: Please enter a valid integer!
+
+Enter your choice: 4
+Enter product ID to delete: 1008
+Product deleted.
+
+Enter your choice: Please enter a valid integer!
+
+Enter your choice: 14
+
+ID: 1009
+Name: Webcam 1080p
+Price: 2199.0
+Manufacturing Date: 2025-10-15
+Quantity: 140
+Company: Lenovo
+-------------------------------
+
+ID: 1001
+Name: Wireless Mouse
+Price: 599.0
+Manufacturing Date: 2025-08-15
+Quantity: 120
+Company: Logitech
+-------------------------------
+
+ID: 1002
+Name: Mechanical Keyboard
+Price: 2499.0
+Manufacturing Date: 2025-07-20
+Quantity: 145
+Company: HP
+-------------------------------
+
+ID: 1003
+Name: Bluetooth Headphones
+Price: 1799.0
+Manufacturing Date: 2025-09-10
+Quantity: 180
+Company: boAt
+-------------------------------
+
+ID: 1004
+Name: USB-C Charger
+Price: 899.0
+Manufacturing Date: 2025-10-05
+Quantity: 150
+Company: 	Anker
+-------------------------------
+
+ID: 1005
+Name: Smart Watch
+Price: 3299.0
+Manufacturing Date: 2025-08-25
+Quantity: 165
+Company: Noise
+-------------------------------
+
+ID: 1006
+Name: LED Monitor 24-inch
+Price: 8999.0
+Manufacturing Date: 2025-05-18
+Quantity: 120
+Company: Dell
+-------------------------------
+
+ID: 1007
+Name: Laptop Stand
+Price: 799.0
+Manufacturing Date: 2025-07-11
+Quantity: 155
+Company: Portronics
+-------------------------------
+
+Enter your choice: 3
+Enter product ID to search: 1008
+Product with ID 1008 does not exist
+
+Enter your choice: Please enter a valid integer!
+
+Enter your choice: 5
+Displaying all products:
+
+ID: 1006
+Name: LED Monitor 24-inch
+Price: 8999.0
+Manufacturing Date: 2025-05-18
+Quantity: 120
+Company: Dell
+-------------------------------
+
+ID: 1005
+Name: Smart Watch
+Price: 3299.0
+Manufacturing Date: 2025-08-25
+Quantity: 165
+Company: Noise
+-------------------------------
+
+ID: 1002
+Name: Mechanical Keyboard
+Price: 2499.0
+Manufacturing Date: 2025-07-20
+Quantity: 145
+Company: HP
+-------------------------------
+
+ID: 1009
+Name: Webcam 1080p
+Price: 2199.0
+Manufacturing Date: 2025-10-15
+Quantity: 140
+Company: Lenovo
+-------------------------------
+
+ID: 1003
+Name: Bluetooth Headphones
+Price: 1799.0
+Manufacturing Date: 2025-09-10
+Quantity: 180
+Company: boAt
+-------------------------------
+
+ID: 1004
+Name: USB-C Charger
+Price: 899.0
+Manufacturing Date: 2025-10-05
+Quantity: 150
+Company: 	Anker
+-------------------------------
+
+ID: 1007
+Name: Laptop Stand
+Price: 799.0
+Manufacturing Date: 2025-07-11
+Quantity: 155
+Company: Portronics
+-------------------------------
+
+ID: 1001
+Name: Wireless Mouse
+Price: 599.0
+Manufacturing Date: 2025-08-15
+Quantity: 120
+Company: Logitech
+-------------------------------
+
+Enter your choice: 6
+
+Enter lower price: 1000
+Enter higher price: 2000
+Displaying products in range 1000.0 to 2000.0:
+
+ID: 1003
+Name: Bluetooth Headphones
+Price: 1799.0
+Manufacturing Date: 2025-09-10
+Quantity: 180
+Company: boAt
+-------------------------------
+
+Enter your choice: Please enter a valid integer!
+
+Enter your choice: 6
+
+Enter lower price: 1000
+Enter higher price: 5000
+Displaying products in range 1000.0 to 5000.0:
+
+ID: 1005
+Name: Smart Watch
+Price: 3299.0
+Manufacturing Date: 2025-08-25
+Quantity: 165
+Company: Noise
+-------------------------------
+
+ID: 1002
+Name: Mechanical Keyboard
+Price: 2499.0
+Manufacturing Date: 2025-07-20
+Quantity: 145
+Company: HP
+-------------------------------
+
+ID: 1009
+Name: Webcam 1080p
+Price: 2199.0
+Manufacturing Date: 2025-10-15
+Quantity: 140
+Company: Lenovo
+-------------------------------
+
+ID: 1003
+Name: Bluetooth Headphones
+Price: 1799.0
+Manufacturing Date: 2025-09-10
+Quantity: 180
+Company: boAt
+-------------------------------
+
+Enter your choice: Please enter a valid integer!
+
+Enter your choice: 7
+Displaying products:
+
+ID: 1006
+Name: LED Monitor 24-inch
+Price: 8999.0
+Manufacturing Date: 2025-05-18
+Quantity: 120
+Company: Dell
+-------------------------------
+
+ID: 1005
+Name: Smart Watch
+Price: 3299.0
+Manufacturing Date: 2025-08-25
+Quantity: 165
+Company: Noise
+-------------------------------
+
+ID: 1002
+Name: Mechanical Keyboard
+Price: 2499.0
+Manufacturing Date: 2025-07-20
+Quantity: 145
+Company: HP
+-------------------------------
+
+ID: 1009
+Name: Webcam 1080p
+Price: 2199.0
+Manufacturing Date: 2025-10-15
+Quantity: 140
+Company: Lenovo
+-------------------------------
+
+ID: 1003
+Name: Bluetooth Headphones
+Price: 1799.0
+Manufacturing Date: 2025-09-10
+Quantity: 180
+Company: boAt
+-------------------------------
+
+ID: 1004
+Name: USB-C Charger
+Price: 899.0
+Manufacturing Date: 2025-10-05
+Quantity: 150
+Company: 	Anker
+-------------------------------
+
+ID: 1007
+Name: Laptop Stand
+Price: 799.0
+Manufacturing Date: 2025-07-11
+Quantity: 155
+Company: Portronics
+-------------------------------
+
+ID: 1001
+Name: Wireless Mouse
+Price: 599.0
+Manufacturing Date: 2025-08-15
+Quantity: 120
+Company: Logitech
+-------------------------------
+
+Enter your choice: 12
+
+Enter number of products to show: 3
+Displaying top 3 products by price:
+
+ID: 1006
+Name: LED Monitor 24-inch
+Price: 8999.0
+Manufacturing Date: 2025-05-18
+Quantity: 120
+Company: Dell
+-------------------------------
+
+ID: 1005
+Name: Smart Watch
+Price: 3299.0
+Manufacturing Date: 2025-08-25
+Quantity: 165
+Company: Noise
+-------------------------------
+
+ID: 1002
+Name: Mechanical Keyboard
+Price: 2499.0
+Manufacturing Date: 2025-07-20
+Quantity: 145
+Company: HP
+-------------------------------
+
+Enter your choice: Please enter a valid integer!
+
+Enter your choice: 13
+
+Enter number of products to show: 3
+Displaying least 3 products by price:
+
+ID: 1001
+Name: Wireless Mouse
+Price: 599.0
+Manufacturing Date: 2025-08-15
+Quantity: 120
+Company: Logitech
+-------------------------------
+
+ID: 1007
+Name: Laptop Stand
+Price: 799.0
+Manufacturing Date: 2025-07-11
+Quantity: 155
+Company: Portronics
+-------------------------------
+
+ID: 1004
+Name: USB-C Charger
+Price: 899.0
+Manufacturing Date: 2025-10-05
+Quantity: 150
+Company: 	Anker
+-------------------------------
+
+Enter your choice: Please enter a valid integer!
+
+Enter your choice: 0
+Exiting...
