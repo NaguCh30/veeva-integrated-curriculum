@@ -1,0 +1,22 @@
+Develop a java application that stores collection of products details as collection of objects.
+The details include: 
+Product ID,
+Name,
+Price,
+Date Of Manufacturing,
+Quantity in hand,
+Company name
+When we store product details, if the quantity in hand is less than 100 then it should not be placed into data repository and deal this situation by raising an exception. 
+Once product details are stored then sort and display the products based on different criteria.
+Like,
+1. Based on Price descending order
+2. Based on range of price descending order
+3. Based on price and date of manufacturing combination descending order
+Now execute queries to explore product details.
+Like,
+1. Based on product name
+2. Based on date of manufacturing
+3. Based on price
+4. Based on product name, company, and price
+5. Based on price top k products
+6. Based on least k products
