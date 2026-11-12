@@ -64,7 +64,7 @@ public class ProductRepository {
             throw new InvalidCompanyNameException("Invalid compnay name to update");
         }
 
-        existingProduct.setCompanyName(newName);
+        existingProduct.setProductName(newName);
         existingProduct.setProductPrice(newPrice);
         existingProduct.setQuantityInHand(newQuantity);
         existingProduct.setCompanyName(newCompany);
