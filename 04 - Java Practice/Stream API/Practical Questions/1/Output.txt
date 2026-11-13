@@ -1,0 +1,76 @@
+1. Find all the names that starts with a specific letter.
+Enter any letter: a
+Assembly
+Amazon DynamoDB
+Arch Linux
+Android
+Amazon Q Developer
+AutoGen
+Angular
+ASP.NET Core
+Amazon Web Services
+
+2. Find all the content that starts with J and ends with a.
+Java
+Jira
+
+3. Find all the content that starts with specific letter but in uppercase.
+Enter any letter: b
+Bolt.new
+Bootstrap
+Bitbucket
+
+4. Find all the content that starts with specific letter but produce distinct content.
+Enter any letter: c
+C
+C++
+C#
+Cassandra
+CouchDB
+CockroachDB
+ChromeOS
+CentOS
+ChatGPT
+Claude
+Cursor
+Codeium
+CrewAI
+Cloudflare
+
+5. Find all the content that starts with specific letter but in uppercase and distinct content only.
+Enter any letter: d
+Dart
+Debian
+Django
+Docker
+DigitalOcean
+
+6. Find all content with specific letter but in sorted order.
+Enter any letter: e
+Eclipse
+Elasticsearch
+Express.js
+
+7. Find all the distinct content starting with specific letter in upper case and sorted order.
+Enter any letter: f
+FIREBASE FIRESTORE
+FEDORA
+FREEBSD
+FLASK
+FASTAPI
+FLUTTER
+FIGMA
+FIREBASE
+
+8. Find the count of distinct content starting with specific letter.
+Enter any letter: g
+Count of names starts with g: 8
+
+9. Find first element of stream which filters data starting with S.
+First name starting with S is: Swift
+
+10. Check whether any element or content starts with s from given ArrayList.
+Any name start with S: true
+
+11. Check whether all elements or contents starts with S from the given ArrayList.
+All names start with S: false

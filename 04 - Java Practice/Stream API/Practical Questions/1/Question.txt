@@ -1,0 +1,16 @@
+Create ArrayList of n Strings. Probably representing names of different programming languages,
+different databases, different Operating Systems, different AI tools
+that are used for software development.
+
+Now perform the following tasks:
+01. Find all the names that starts with a specific letter
+02. Find all the content that starts with J and ends with a.
+03. Find all the content that starts with specific letter but in uppercase.
+04. Find all the content that starts with specific letter but produce distinct content.
+05. Find all the content that starts with specific letter but in uppercase and distinct content only.
+06. Find all content with specific letter but in sorted order.
+07. Find all the distinct content starting with specific letter in upper case and sorted order.
+08. Find the count of distinct content starting with specific letter.
+09. Find first element of stream which filters data starting with S.
+10. Check whether any element or content starts with s from given ArrayList.
+11. Check whether all elements or contents starts with S from the given ArrayList.
