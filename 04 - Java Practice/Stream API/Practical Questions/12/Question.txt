@@ -1,0 +1,28 @@
+Consider the following classes:
+
+class Order {
+    private int orderId;
+    private String customerName;
+    private List<OrderItem> items;
+
+    // Constructor and getters
+}
+
+class OrderItem {
+    private String productName;
+    private int quantity;
+    private double price;
+
+    // Constructor and getters
+}
+
+Tasks:
+
+1. Extract all customer names.
+2. Extract all order items from all orders using flatMap().
+3. Calculate the total number of products sold using flatMapToInt() and mapToInt().
+4. Calculate the total revenue generated from all orders. (Formula: quantity × price)
+5. Find all products whose total item value (quantity × price) exceeds 10,000.
+6. Find the most expensive order item based on its total item value.
+7. Calculate the average order value.
+8. Find all customers whose order value exceeds 30,000.

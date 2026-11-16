@@ -1,0 +1,33 @@
+Extract all customer names.
+Ravi
+Priya
+Kiran
+
+Extract all order items from all orders using flatMap().
+Laptop
+Mouse
+Mobile
+Headphones
+Keyboard
+Monitor
+
+Calculate the total number of products sold using flatMapToInt() and mapToInt().
+Total number of orders: 9
+
+Calculate the total revenue generated from all orders. (quantity * price)
+Total Reveue: 138500.0
+
+Find all products whose total item value (quantity ? price) exceeds 10,000.
+Laptop
+Mobile
+Monitor
+
+Find the most expensive order item based on its total item value.
+Laptop | 1 | 60000.0
+
+Calculate the average order value.
+Average order value: 16833.333333333332
+
+Find all customers whose order value exceeds 30,000.
+Ravi
+Priya
