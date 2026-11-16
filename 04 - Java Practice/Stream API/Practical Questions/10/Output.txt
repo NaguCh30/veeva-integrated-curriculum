@@ -1,0 +1,36 @@
+Extract the list of student names using map().
+Ravi
+Priya
+Kiran
+Sneha
+
+Extract each student's marks list using map(). Observe the resulting nested structure.[80, 75, 90]
+[95, 85, 92]
+[60, 70, 65]
+[88, 91, 84]
+
+Extract all individual marks from all students into a single stream using flatMap()
+80
+75
+90
+95
+85
+92
+60
+70
+65
+88
+91
+84
+
+Calculate the total marks obtained by all students using flatMapToInt()
+Total Marks = 975
+
+Find the highest mark across all students.
+Highest Marks: 95
+
+Calculate the average mark across all students.
+Average Marks: 81.25
+Find students whose average marks are greater than 85
+Priya
+Sneha

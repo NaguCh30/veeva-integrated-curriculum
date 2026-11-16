@@ -1,0 +1,16 @@
+Given a list of Student objects.
+
+class Student {
+    private int id;
+    private String name;
+    private List<Integer> marks;
+}
+
+Tasks:
+1. Extract the list of student names using map().
+2. Extract each student's marks list using map(). Observe the resulting nested structure.
+3. Extract all individual marks from all students into a single stream using flatMap().
+4. Calculate the total marks obtained by all students using flatMapToInt() (convert each Integer to an IntStream).
+5. Find the highest mark across all students.
+6. Calculate the average mark across all students.
+7. Find students whose average marks are greater than 85.
