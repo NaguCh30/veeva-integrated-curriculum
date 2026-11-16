@@ -1,0 +1,1003 @@
+========== INVENTORY & SALES MANAGEMENT ==========
+
+1. Add Company
+2. Update Company
+3. Delete Company
+4. Search Company
+5. Display All Companies
+
+6. Add Product
+7. Update Product
+8. Delete Product
+9. Search Product
+10. Display All Products
+
+11. Product Price Lookup
+12. Check Product Stock
+
+13. Place Customer Order
+14. Display All Orders
+15. Display Transaction History
+
+0. Exit
+===================================================
+Enter your choice: 1
+
+========== ADD COMPANY ==========
+Enter Company ID: C105
+Enter Company Name: Sony
+Enter Company Contact: 9876500005
+Enter Company Location: Delhi
+Company added successfully.
+
+========== INVENTORY & SALES MANAGEMENT ==========
+
+1. Add Company
+2. Update Company
+3. Delete Company
+4. Search Company
+5. Display All Companies
+
+6. Add Product
+7. Update Product
+8. Delete Product
+9. Search Product
+10. Display All Products
+
+11. Product Price Lookup
+12. Check Product Stock
+
+13. Place Customer Order
+14. Display All Orders
+15. Display Transaction History
+
+0. Exit
+===================================================
+Enter your choice: 5
+
+========== ALL COMPANIES ==========
+-----------------------------------
+Company ID:       C101
+Company Name:     Logitech
+Company Contact:  9876500001
+Company Location: Mumbai
+-----------------------------------
+-----------------------------------
+Company ID:       C105
+Company Name:     Sony
+Company Contact:  9876500005
+Company Location: Delhi
+-----------------------------------
+-----------------------------------
+Company ID:       C104
+Company Name:     Samsung
+Company Contact:  9876500004
+Company Location: Chennai
+-----------------------------------
+-----------------------------------
+Company ID:       C103
+Company Name:     Dell
+Company Contact:  9876500003
+Company Location: Hyderabad
+-----------------------------------
+-----------------------------------
+Company ID:       C102
+Company Name:     HP
+Company Contact:  9876500002
+Company Location: Bangalore
+-----------------------------------
+
+========== INVENTORY & SALES MANAGEMENT ==========
+
+1. Add Company
+2. Update Company
+3. Delete Company
+4. Search Company
+5. Display All Companies
+
+6. Add Product
+7. Update Product
+8. Delete Product
+9. Search Product
+10. Display All Products
+
+11. Product Price Lookup
+12. Check Product Stock
+
+13. Place Customer Order
+14. Display All Orders
+15. Display Transaction History
+
+0. Exit
+===================================================
+Enter your choice: 4
+
+========== SEARCH COMPANY ==========
+Enter Company ID: C101
+-----------------------------------
+Company ID:       C101
+Company Name:     Logitech
+Company Contact:  9876500001
+Company Location: Mumbai
+-----------------------------------
+
+========== INVENTORY & SALES MANAGEMENT ==========
+
+1. Add Company
+2. Update Company
+3. Delete Company
+4. Search Company
+5. Display All Companies
+
+6. Add Product
+7. Update Product
+8. Delete Product
+9. Search Product
+10. Display All Products
+
+11. Product Price Lookup
+12. Check Product Stock
+
+13. Place Customer Order
+14. Display All Orders
+15. Display Transaction History
+
+0. Exit
+===================================================
+Enter your choice: 2
+
+========== UPDATE COMPANY ==========
+Enter Company ID: C105
+Enter New Company Name: Sony India
+Enter New Contact: 9876500099
+Enter New Location: New Delhi
+Company updated successfully.
+
+========== INVENTORY & SALES MANAGEMENT ==========
+
+1. Add Company
+2. Update Company
+3. Delete Company
+4. Search Company
+5. Display All Companies
+
+6. Add Product
+7. Update Product
+8. Delete Product
+9. Search Product
+10. Display All Products
+
+11. Product Price Lookup
+12. Check Product Stock
+
+13. Place Customer Order
+14. Display All Orders
+15. Display Transaction History
+
+0. Exit
+===================================================
+Enter your choice: 6
+
+========== ADD PRODUCT ==========
+Enter Product ID: P109
+Enter Product Name: Bluetooth Speaker
+Enter Unit Price: 75
+Enter Supplier Company ID: C105
+Available Categories:
+ELECTRONICS
+CLOTHING
+GROCERIES
+BOOKS
+FURNITURE
+ACCESSORIES
+MONITORS
+STORAGE
+Enter Product Category: ACCESSORIES
+Enter Available Stock: 20
+Product added successfully.
+
+========== INVENTORY & SALES MANAGEMENT ==========
+
+1. Add Company
+2. Update Company
+3. Delete Company
+4. Search Company
+5. Display All Companies
+
+6. Add Product
+7. Update Product
+8. Delete Product
+9. Search Product
+10. Display All Products
+
+11. Product Price Lookup
+12. Check Product Stock
+
+13. Place Customer Order
+14. Display All Orders
+15. Display Transaction History
+
+0. Exit
+===================================================
+Enter your choice: 10
+
+========== ALL PRODUCTS ==========
+-----------------------------------
+Product ID:       P104
+Product Name:     Monitor
+Unit Price:       200.0
+Company ID:       C103
+Category:         MONITORS
+Available Stock:  8
+-----------------------------------
+-----------------------------------
+Product ID:       P103
+Product Name:     USB Hub
+Unit Price:       15.0
+Company ID:       C102
+Category:         ACCESSORIES
+Available Stock:  0
+-----------------------------------
+-----------------------------------
+Product ID:       P106
+Product Name:     Laptop Stand
+Unit Price:       30.0
+Company ID:       C102
+Category:         ACCESSORIES
+Available Stock:  15
+-----------------------------------
+-----------------------------------
+Product ID:       P105
+Product Name:     SSD 1TB
+Unit Price:       100.0
+Company ID:       C104
+Category:         STORAGE
+Available Stock:  12
+-----------------------------------
+-----------------------------------
+Product ID:       P102
+Product Name:     Mechanical Keyboard
+Unit Price:       50.0
+Company ID:       C101
+Category:         ACCESSORIES
+Available Stock:  5
+-----------------------------------
+-----------------------------------
+Product ID:       P101
+Product Name:     Wireless Mouse
+Unit Price:       25.0
+Company ID:       C101
+Category:         ACCESSORIES
+Available Stock:  10
+-----------------------------------
+-----------------------------------
+Product ID:       P108
+Product Name:     External HDD
+Unit Price:       80.0
+Company ID:       C104
+Category:         STORAGE
+Available Stock:  9
+-----------------------------------
+-----------------------------------
+Product ID:       P107
+Product Name:     Webcam
+Unit Price:       45.0
+Company ID:       C101
+Category:         ACCESSORIES
+Available Stock:  7
+-----------------------------------
+-----------------------------------
+Product ID:       P109
+Product Name:     Bluetooth Speaker
+Unit Price:       75.0
+Company ID:       C105
+Category:         ACCESSORIES
+Available Stock:  20
+-----------------------------------
+
+========== INVENTORY & SALES MANAGEMENT ==========
+
+1. Add Company
+2. Update Company
+3. Delete Company
+4. Search Company
+5. Display All Companies
+
+6. Add Product
+7. Update Product
+8. Delete Product
+9. Search Product
+10. Display All Products
+
+11. Product Price Lookup
+12. Check Product Stock
+
+13. Place Customer Order
+14. Display All Orders
+15. Display Transaction History
+
+0. Exit
+===================================================
+Enter your choice: 9
+
+========== SEARCH PRODUCT ==========
+Enter Product ID: P109
+-----------------------------------
+Product ID:       P109
+Product Name:     Bluetooth Speaker
+Unit Price:       75.0
+Company ID:       C105
+Category:         ACCESSORIES
+Available Stock:  20
+-----------------------------------
+
+========== INVENTORY & SALES MANAGEMENT ==========
+
+1. Add Company
+2. Update Company
+3. Delete Company
+4. Search Company
+5. Display All Companies
+
+6. Add Product
+7. Update Product
+8. Delete Product
+9. Search Product
+10. Display All Products
+
+11. Product Price Lookup
+12. Check Product Stock
+
+13. Place Customer Order
+14. Display All Orders
+15. Display Transaction History
+
+0. Exit
+===================================================
+Enter your choice: 11
+
+========== PRODUCT PRICE LOOKUP ==========
+Enter Product ID: P104
+========== Product Details ==========
+Product Id:      P104
+Name:            Monitor
+Price:           200.0
+Category:        MONITORS
+Available Stock: 8
+
+========== Company Details ==========
+Company ID:       C103
+Company Name:     Dell
+Company Contact:  9876500003
+Company Location: Hyderabad
+
+========== INVENTORY & SALES MANAGEMENT ==========
+
+1. Add Company
+2. Update Company
+3. Delete Company
+4. Search Company
+5. Display All Companies
+
+6. Add Product
+7. Update Product
+8. Delete Product
+9. Search Product
+10. Display All Products
+
+11. Product Price Lookup
+12. Check Product Stock
+
+13. Place Customer Order
+14. Display All Orders
+15. Display Transaction History
+
+0. Exit
+===================================================
+Enter your choice: 12
+
+========== CHECK PRODUCT STOCK ==========
+Enter Product ID: P101
+Product Name: Wireless Mouse
+Available Stock: 10
+
+========== INVENTORY & SALES MANAGEMENT ==========
+
+1. Add Company
+2. Update Company
+3. Delete Company
+4. Search Company
+5. Display All Companies
+
+6. Add Product
+7. Update Product
+8. Delete Product
+9. Search Product
+10. Display All Products
+
+11. Product Price Lookup
+12. Check Product Stock
+
+13. Place Customer Order
+14. Display All Orders
+15. Display Transaction History
+
+0. Exit
+===================================================
+Enter your choice: 7
+
+========== UPDATE PRODUCT ==========
+Enter Product ID: P109
+Current Product Details:
+-----------------------------------
+Product ID:       P109
+Product Name:     Bluetooth Speaker
+Unit Price:       75.0
+Company ID:       C105
+Category:         ACCESSORIES
+Available Stock:  20
+-----------------------------------
+Enter New Product Name: Bluetooth Speaker Pro
+Enter New Unit Price: 90
+Available Categories:
+ELECTRONICS
+CLOTHING
+GROCERIES
+BOOKS
+FURNITURE
+ACCESSORIES
+MONITORS
+STORAGE
+Enter Product Category: ACCESSORIES
+Enter New Available Stock: 25
+Product updated successfully.
+
+========== INVENTORY & SALES MANAGEMENT ==========
+
+1. Add Company
+2. Update Company
+3. Delete Company
+4. Search Company
+5. Display All Companies
+
+6. Add Product
+7. Update Product
+8. Delete Product
+9. Search Product
+10. Display All Products
+
+11. Product Price Lookup
+12. Check Product Stock
+
+13. Place Customer Order
+14. Display All Orders
+15. Display Transaction History
+
+0. Exit
+===================================================
+Enter your choice: 13
+
+========== PLACE CUSTOMER ORDER ==========
+Enter Order ID: O106
+Enter Customer Name: Nagu
+Enter Number of Products: 2
+
+Product 1
+Enter Product ID: P101
+Enter Quantity: 2
+
+Product 2
+Enter Product ID: P104
+Enter Quantity: 1
+
+Order placed successfully!
+========== Transaction Details ==========
+Transaction ID: f37618a4-e956-4a5d-8e27-c29bfe70a03d
+Order ID:       O106
+Total Amount:   250.0
+Transaction Date: 2026-11-16T19:53:33.477390100
+
+========== INVENTORY & SALES MANAGEMENT ==========
+
+1. Add Company
+2. Update Company
+3. Delete Company
+4. Search Company
+5. Display All Companies
+
+6. Add Product
+7. Update Product
+8. Delete Product
+9. Search Product
+10. Display All Products
+
+11. Product Price Lookup
+12. Check Product Stock
+
+13. Place Customer Order
+14. Display All Orders
+15. Display Transaction History
+
+0. Exit
+===================================================
+Enter your choice: 13
+
+========== PLACE CUSTOMER ORDER ==========
+Enter Order ID: O107
+Enter Customer Name: Rahul
+Enter Number of Products: 2
+
+Product 1
+Enter Product ID: P105
+Enter Quantity: 2
+
+Product 2
+Enter Product ID: P109
+Enter Quantity: 3
+
+Order placed successfully!
+========== Transaction Details ==========
+Transaction ID: 07a6b391-c0c2-46f2-9486-ca89aa54273d
+Order ID:       O107
+Total Amount:   470.0
+Transaction Date: 2026-11-16T19:54:25.976274400
+
+========== INVENTORY & SALES MANAGEMENT ==========
+
+1. Add Company
+2. Update Company
+3. Delete Company
+4. Search Company
+5. Display All Companies
+
+6. Add Product
+7. Update Product
+8. Delete Product
+9. Search Product
+10. Display All Products
+
+11. Product Price Lookup
+12. Check Product Stock
+
+13. Place Customer Order
+14. Display All Orders
+15. Display Transaction History
+
+0. Exit
+===================================================
+Enter your choice: 13
+
+========== PLACE CUSTOMER ORDER ==========
+Enter Order ID: O108
+Enter Customer Name: Kiran
+Enter Number of Products: 1
+
+Product 1
+Enter Product ID: P103
+Enter Quantity: 1
+Error: USB Hub is currently out of stock.
+
+========== INVENTORY & SALES MANAGEMENT ==========
+
+1. Add Company
+2. Update Company
+3. Delete Company
+4. Search Company
+5. Display All Companies
+
+6. Add Product
+7. Update Product
+8. Delete Product
+9. Search Product
+10. Display All Products
+
+11. Product Price Lookup
+12. Check Product Stock
+
+13. Place Customer Order
+14. Display All Orders
+15. Display Transaction History
+
+0. Exit
+===================================================
+Enter your choice: 13
+
+========== PLACE CUSTOMER ORDER ==========
+Enter Order ID: O109
+Enter Customer Name: Priya
+Enter Number of Products: 1
+
+Product 1
+Enter Product ID: P101
+Enter Quantity: 0
+Error: Requested quantity must be greater than zero.
+
+========== INVENTORY & SALES MANAGEMENT ==========
+
+1. Add Company
+2. Update Company
+3. Delete Company
+4. Search Company
+5. Display All Companies
+
+6. Add Product
+7. Update Product
+8. Delete Product
+9. Search Product
+10. Display All Products
+
+11. Product Price Lookup
+12. Check Product Stock
+
+13. Place Customer Order
+14. Display All Orders
+15. Display Transaction History
+
+0. Exit
+===================================================
+Enter your choice: 1
+
+========== ADD COMPANY ==========
+Enter Company ID: C101
+Enter Company Name: Duplicate Company
+Enter Company Contact: 9876500000
+Enter Company Location: Mumbai
+Error: Company with ID C101 already exists.
+
+========== INVENTORY & SALES MANAGEMENT ==========
+
+1. Add Company
+2. Update Company
+3. Delete Company
+4. Search Company
+5. Display All Companies
+
+6. Add Product
+7. Update Product
+8. Delete Product
+9. Search Product
+10. Display All Products
+
+11. Product Price Lookup
+12. Check Product Stock
+
+13. Place Customer Order
+14. Display All Orders
+15. Display Transaction History
+
+0. Exit
+===================================================
+Enter your choice: 6
+
+========== ADD PRODUCT ==========
+Enter Product ID: P101
+Enter Product Name: Another Mouse
+Enter Unit Price: 30
+Enter Supplier Company ID: C101
+Available Categories:
+ELECTRONICS
+CLOTHING
+GROCERIES
+BOOKS
+FURNITURE
+ACCESSORIES
+MONITORS
+STORAGE
+Enter Product Category: ACCESSORIES
+Enter Available Stock: 10
+Error: Product with ID P101 already exists!
+
+========== INVENTORY & SALES MANAGEMENT ==========
+
+1. Add Company
+2. Update Company
+3. Delete Company
+4. Search Company
+5. Display All Companies
+
+6. Add Product
+7. Update Product
+8. Delete Product
+9. Search Product
+10. Display All Products
+
+11. Product Price Lookup
+12. Check Product Stock
+
+13. Place Customer Order
+14. Display All Orders
+15. Display Transaction History
+
+0. Exit
+===================================================
+Enter your choice: 14
+
+========== ALL ORDERS ==========
+-----------------------------------
+Order ID: O102
+Customer Name: Priya
+Order Date: 2026-11-16T19:48:15.469317700
+Ordered Items:
+Product ID: P104 | Quantity: 1 | Unit Price: 200.0
+Product ID: P105 | Quantity: 2 | Unit Price: 100.0
+-----------------------------------
+-----------------------------------
+Order ID: O103
+Customer Name: Kiran
+Order Date: 2026-11-16T19:48:15.469317700
+Ordered Items:
+Product ID: P106 | Quantity: 3 | Unit Price: 30.0
+Product ID: P107 | Quantity: 1 | Unit Price: 45.0
+-----------------------------------
+-----------------------------------
+Order ID: O104
+Customer Name: Anjali
+Order Date: 2026-11-16T19:48:15.469317700
+Ordered Items:
+Product ID: P108 | Quantity: 2 | Unit Price: 80.0
+Product ID: P101 | Quantity: 1 | Unit Price: 25.0
+-----------------------------------
+-----------------------------------
+Order ID: O105
+Customer Name: Ravi
+Order Date: 2026-11-16T19:48:15.469317700
+Ordered Items:
+Product ID: P102 | Quantity: 1 | Unit Price: 50.0
+Product ID: P107 | Quantity: 2 | Unit Price: 45.0
+-----------------------------------
+-----------------------------------
+Order ID: O101
+Customer Name: Rahul
+Order Date: 2026-11-16T19:48:15.469317700
+Ordered Items:
+Product ID: P101 | Quantity: 2 | Unit Price: 25.0
+Product ID: P102 | Quantity: 1 | Unit Price: 50.0
+-----------------------------------
+-----------------------------------
+Order ID: O106
+Customer Name: Nagu
+Order Date: 2026-11-16T19:53:33.475156900
+Ordered Items:
+Product ID: P101 | Quantity: 2 | Unit Price: 25.0
+Product ID: P104 | Quantity: 1 | Unit Price: 200.0
+-----------------------------------
+-----------------------------------
+Order ID: O107
+Customer Name: Rahul
+Order Date: 2026-11-16T19:54:25.975269100
+Ordered Items:
+Product ID: P105 | Quantity: 2 | Unit Price: 100.0
+Product ID: P109 | Quantity: 3 | Unit Price: 90.0
+-----------------------------------
+
+========== INVENTORY & SALES MANAGEMENT ==========
+
+1. Add Company
+2. Update Company
+3. Delete Company
+4. Search Company
+5. Display All Companies
+
+6. Add Product
+7. Update Product
+8. Delete Product
+9. Search Product
+10. Display All Products
+
+11. Product Price Lookup
+12. Check Product Stock
+
+13. Place Customer Order
+14. Display All Orders
+15. Display Transaction History
+
+0. Exit
+===================================================
+Enter your choice: 15
+
+========== TRANSACTION HISTORY ==========
+========== Transaction Details ==========
+Transaction ID: TX101
+Order ID:       O101
+Total Amount:   100.0
+Transaction Date: 2026-11-16T19:48:15.470316200
+Sold Items:
+Product ID: P101 | Quantity: 2 | Unit Price: 25.0
+Product ID: P102 | Quantity: 1 | Unit Price: 50.0
+-----------------------------------
+========== Transaction Details ==========
+Transaction ID: TX102
+Order ID:       O102
+Total Amount:   400.0
+Transaction Date: 2026-11-16T19:48:15.470316200
+Sold Items:
+Product ID: P104 | Quantity: 1 | Unit Price: 200.0
+Product ID: P105 | Quantity: 2 | Unit Price: 100.0
+-----------------------------------
+========== Transaction Details ==========
+Transaction ID: TX103
+Order ID:       O103
+Total Amount:   135.0
+Transaction Date: 2026-11-16T19:48:15.470316200
+Sold Items:
+Product ID: P106 | Quantity: 3 | Unit Price: 30.0
+Product ID: P107 | Quantity: 1 | Unit Price: 45.0
+-----------------------------------
+========== Transaction Details ==========
+Transaction ID: TX104
+Order ID:       O104
+Total Amount:   185.0
+Transaction Date: 2026-11-16T19:48:15.470316200
+Sold Items:
+Product ID: P108 | Quantity: 2 | Unit Price: 80.0
+Product ID: P101 | Quantity: 1 | Unit Price: 25.0
+-----------------------------------
+========== Transaction Details ==========
+Transaction ID: 07a6b391-c0c2-46f2-9486-ca89aa54273d
+Order ID:       O107
+Total Amount:   470.0
+Transaction Date: 2026-11-16T19:54:25.976274400
+Sold Items:
+Product ID: P105 | Quantity: 2 | Unit Price: 100.0
+Product ID: P109 | Quantity: 3 | Unit Price: 90.0
+-----------------------------------
+========== Transaction Details ==========
+Transaction ID: TX105
+Order ID:       O105
+Total Amount:   140.0
+Transaction Date: 2026-11-16T19:48:15.470316200
+Sold Items:
+Product ID: P102 | Quantity: 1 | Unit Price: 50.0
+Product ID: P107 | Quantity: 2 | Unit Price: 45.0
+-----------------------------------
+========== Transaction Details ==========
+Transaction ID: f37618a4-e956-4a5d-8e27-c29bfe70a03d
+Order ID:       O106
+Total Amount:   250.0
+Transaction Date: 2026-11-16T19:53:33.477390100
+Sold Items:
+Product ID: P101 | Quantity: 2 | Unit Price: 25.0
+Product ID: P104 | Quantity: 1 | Unit Price: 200.0
+-----------------------------------
+
+========== INVENTORY & SALES MANAGEMENT ==========
+
+1. Add Company
+2. Update Company
+3. Delete Company
+4. Search Company
+5. Display All Companies
+
+6. Add Product
+7. Update Product
+8. Delete Product
+9. Search Product
+10. Display All Products
+
+11. Product Price Lookup
+12. Check Product Stock
+
+13. Place Customer Order
+14. Display All Orders
+15. Display Transaction History
+
+0. Exit
+===================================================
+Enter your choice: 8
+
+========== DELETE PRODUCT ==========
+Enter Product ID: P109
+Product deleted successfully.
+
+========== INVENTORY & SALES MANAGEMENT ==========
+
+1. Add Company
+2. Update Company
+3. Delete Company
+4. Search Company
+5. Display All Companies
+
+6. Add Product
+7. Update Product
+8. Delete Product
+9. Search Product
+10. Display All Products
+
+11. Product Price Lookup
+12. Check Product Stock
+
+13. Place Customer Order
+14. Display All Orders
+15. Display Transaction History
+
+0. Exit
+===================================================
+Enter your choice: 3
+
+========== DELETE COMPANY ==========
+Enter Company ID: C105
+Company deleted successfully.
+
+========== INVENTORY & SALES MANAGEMENT ==========
+
+1. Add Company
+2. Update Company
+3. Delete Company
+4. Search Company
+5. Display All Companies
+
+6. Add Product
+7. Update Product
+8. Delete Product
+9. Search Product
+10. Display All Products
+
+11. Product Price Lookup
+12. Check Product Stock
+
+13. Place Customer Order
+14. Display All Orders
+15. Display Transaction History
+
+0. Exit
+===================================================
+Enter your choice: 4
+
+========== SEARCH COMPANY ==========
+Enter Company ID: C105
+Error: Compnay with ID C105 not found.
+
+========== INVENTORY & SALES MANAGEMENT ==========
+
+1. Add Company
+2. Update Company
+3. Delete Company
+4. Search Company
+5. Display All Companies
+
+6. Add Product
+7. Update Product
+8. Delete Product
+9. Search Product
+10. Display All Products
+
+11. Product Price Lookup
+12. Check Product Stock
+
+13. Place Customer Order
+14. Display All Orders
+15. Display Transaction History
+
+0. Exit
+===================================================
+Enter your choice: 9
+
+========== SEARCH PRODUCT ==========
+Enter Product ID: C109
+Error: Product with ID C109 not found.
+
+========== INVENTORY & SALES MANAGEMENT ==========
+
+1. Add Company
+2. Update Company
+3. Delete Company
+4. Search Company
+5. Display All Companies
+
+6. Add Product
+7. Update Product
+8. Delete Product
+9. Search Product
+10. Display All Products
+
+11. Product Price Lookup
+12. Check Product Stock
+
+13. Place Customer Order
+14. Display All Orders
+15. Display Transaction History
+
+0. Exit
+===================================================
+Enter your choice: 0
+Exiting application...
