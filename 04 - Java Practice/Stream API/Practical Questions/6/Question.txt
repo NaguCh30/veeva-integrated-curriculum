@@ -1,0 +1,8 @@
+Consider collection of Patient objects in health-care data with the following attributes.
+
+Patient ID, Patient Name, Department(Neurology, etc), Doctor Name, Diagnosis,
+Treatment Given, Patient Type(Out, In, ICU), Heart Rate, BP, Sugar Value, Severity
+
+Now,
+1. Find all active ICU patients
+2. Find all active ICU patients with elevated heart rate(heart rate > 100)

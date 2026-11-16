@@ -1,0 +1,8 @@
+1. Find all active ICU patients
+Patient ID: 101, Name: Rahul, Department: Neurology, Type: ICU, Heart Rate: 120, Active: true
+Patient ID: 102, Name: Priya, Department: Cardiology, Type: ICU, Heart Rate: 95, Active: true
+Patient ID: 106, Name: Sneha, Department: Neurology, Type: ICU, Heart Rate: 110, Active: true
+
+2. Find all active ICU patients with elevated heart rate(heart rate > 100)
+Patient ID: 101, Name: Rahul, Department: Neurology, Type: ICU, Heart Rate: 120, Active: true
+Patient ID: 106, Name: Sneha, Department: Neurology, Type: ICU, Heart Rate: 110, Active: true
