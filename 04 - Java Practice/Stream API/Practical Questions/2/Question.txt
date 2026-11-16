@@ -1,0 +1,8 @@
+You are given two lists of integers.
+Now,
+1. find sum, average, min, and max of each list separately.
+2. Find K most frequent elements from list 1, and list 2 separately.
+3. Find second most frequent elements.
+4. Merge two lists into single list using flatMap()
+5. Find common elements from two lists using streams.
+6. Find all prime numbers from list 1 using streams
