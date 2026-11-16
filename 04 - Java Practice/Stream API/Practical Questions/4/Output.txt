@@ -1,0 +1,4 @@
+Find the top earning employees department-wise.
+Finance -> 106 | Sneha | Finance | 70000.0
+HR -> 103 | Kiran | HR | 95000.0
+IT -> 108 | Meena | IT | 90000.0
