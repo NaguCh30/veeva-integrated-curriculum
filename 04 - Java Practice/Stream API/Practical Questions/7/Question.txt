@@ -1,0 +1,16 @@
+1.Create a list of Strings. 
+   Then,
+   Filter out strings with length 4, Convert them into uppercase, remove duplicates, sort in ascending order 
+   and finally collect the output.
+   Produce output at every stage.
+
+2. Given array of n integers.
+   Now,
+   the task is retain values greater than 5, square them, remove duplicates and sort in ascending order.
+
+3. Given a list of integers.
+   Now,
+   find only numbers that appear more than once.
+
+4. Given a string.
+   Find the first non-repeating character in the string.

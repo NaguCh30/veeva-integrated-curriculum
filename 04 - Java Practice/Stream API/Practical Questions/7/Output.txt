@@ -1,0 +1,19 @@
+========== PROBLEM 1 ==========
+Original List: [java, code, Java, book, tree, data, java, apple, home, CODE]
+After filter: [java, code, Java, book, tree, data, java, home, CODE]
+After uppercase: [JAVA, CODE, JAVA, BOOK, TREE, DATA, JAVA, HOME, CODE]
+After distinct: [JAVA, CODE, BOOK, TREE, DATA, HOME]
+After sorted: [BOOK, CODE, DATA, HOME, JAVA, TREE]
+Final Output: [BOOK, CODE, DATA, HOME, JAVA, TREE]
+
+========== PROBLEM 2 ==========
+Original Array: [2, 6, 8, 5, 7, 6, 3, 10, 8, 4, 12]
+Final Output: [36, 49, 64, 100, 144]
+
+========== PROBLEM 3 ==========
+Original List: [1, 2, 3, 2, 4, 5, 1, 3, 3, 6, 7, 5]
+Duplicate Numbers: [1, 2, 3, 5]
+
+========== PROBLEM 4 ==========
+Original String: swiss
+First Non-Repeating Character: w
