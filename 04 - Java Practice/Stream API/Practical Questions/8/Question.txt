@@ -1,0 +1,10 @@
+Construct a list of employees.
+
+1. Find the names of employees in the Engineering department
+   who earn more than 80000 salary and sort alphabetically based on name.
+
+2. Extract duplicated list of all employee skills that starts with letter J.
+
+3. Group all employees by department. But only include employees earning more than one lack.
+
+4. Filter stream of employees so that only first employee for department is kept.

@@ -1,0 +1,16 @@
+1. Find the names of employees in the Engineering department
+who earn more than 80000 salary and sort alphabetically based on name.
+[Kiran, Meena, Rahul, Ravi]
+
+2. Extract duplicated list of all employee skills that starts with letter J.
+[Java, JavaScript]
+
+3. Group all employees by department. But only include employees earning more than one lack.
+Engineering -> [103 | Kiran | Engineering | 120000.0, 108 | Meena | Engineering | 135000.0]
+Finance -> [104 | Anjali | Finance | 110000.0]
+HR -> [106 | Sneha | HR | 105000.0]
+
+4. Filter stream of employees so that only first employee for department is kept.
+Engineering -> Rahul
+HR -> Priya
+Finance -> Anjali
