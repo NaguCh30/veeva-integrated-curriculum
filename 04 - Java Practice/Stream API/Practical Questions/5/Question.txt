@@ -1,0 +1,8 @@
+You have a list of Company objects and each Company contains list of Employee objects.
+
+The attributes of Company are:
+	ID, Name, Location, Type(finance, Software, etc...)
+The attributes of Employee are:
+	ID, Name, Job, Salary
+
+Now find a flat list of employee names across all the companies.
