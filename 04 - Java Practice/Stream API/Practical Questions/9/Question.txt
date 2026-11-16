@@ -1,0 +1,9 @@
+You are given a list of employees.
+
+Tasks:
+1. Extract all employee names using map().
+2. Extract all employee salaries using mapToDouble().
+3. Calculate the total salary of all employees using mapToDouble() and sum().
+4. Find employees whose salary is greater than 45,000 and return only their names.
+5. Convert employee names into uppercase using map().
+6. Find the average salary of IT department employees.

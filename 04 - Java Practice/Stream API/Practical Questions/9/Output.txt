@@ -1,0 +1,35 @@
+Extract all employee names using map()
+Ravi
+Priya
+Kiran
+Sneha
+Arun
+Divya
+
+Extract all employee salaries using mapToDouble()
+50000.0
+35000.0
+75000.0
+60000.0
+45000.0
+55000.0
+
+Calculate the total salary of all employees using mapToDouble() and sum()
+320000.0
+
+Find employees whose salary is greater than 45,000 and return only their names
+Ravi
+Kiran
+Sneha
+Divya
+
+Convert employee names into uppercase using map()
+RAVI
+PRIYA
+KIRAN
+SNEHA
+ARUN
+DIVYA
+
+Find the average salary of IT department employees.
+56666.666666666664
