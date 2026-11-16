@@ -1,0 +1,5 @@
+You are given a list of strings. 
+
+1. Find the non-repeating characters in each string using streams.
+2. Find longest word from given list.
+3. Find shortest word from given list.

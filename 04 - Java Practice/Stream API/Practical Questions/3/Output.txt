@@ -1,0 +1,13 @@
+1. Find the non-repeating characters in each string using streams.
+banana -> b 
+apple -> a l e 
+orange -> o r a n g e 
+programming -> p o a i n 
+java -> j v 
+development -> d v l o p m n t 
+
+2. Find longest word from given list.
+Longest word: programming
+
+3. Find shortest word from given list.
+Shortest word: java
