@@ -1,0 +1,29 @@
+Consider these classes:
+
+class Product {
+    private int productId;
+    private String productName;
+    private double price;
+    private List<String> tags;
+
+    // Constructor and getters
+}
+
+class Category {
+    private String categoryName;
+    private List<Product> products;
+
+    // Constructor and getters
+}
+
+
+Tasks:
+
+1. Extract all category names.
+2. Extract all products from all categories into one stream using flatMap().
+3. Extract all product names.
+4. Calculate the total inventory value using flatMap() and mapToDouble().
+5. Extract all product tags across all categories into a single stream.
+6. Find all distinct tags using distinct().
+7. Find products whose price is greater than 5,000 and return their names.
+8. Find the average product price across all categories.

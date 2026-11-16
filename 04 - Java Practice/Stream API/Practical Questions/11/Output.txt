@@ -1,0 +1,43 @@
+Extract all category names.
+Electronics
+Furniture
+
+Extract all products from all categories into one stream using flatMap().
+1 | Laptop | 60000.0 | [Technology, Work]
+2 | Mobile | 25000.0 | [Technology, Communication]
+3 | Chair | 3000.0 | [Home, Office]
+4 | Table | 7000.0 | [Home, Office]
+
+Extract all product names.
+Laptop
+Mobile
+Chair
+Table
+
+Calculate the total inventory value using flatMap() and mapToDouble().
+Total Inventory Value: 95000.0
+
+Extract all product tags across all categories into a single stream.
+Technology
+Work
+Technology
+Communication
+Home
+Office
+Home
+Office
+
+Find all distinct tags using distinct().
+Technology
+Work
+Communication
+Home
+Office
+
+Find products whose price is greater than 5,000 and return their names.
+Laptop
+Mobile
+Table
+
+Find the average product price across all categories.
+Average Product Price: 23750.0
