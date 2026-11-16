@@ -1,0 +1,279 @@
+Data loaded successfully!
+========== STATE & CITY POPULATION DIRECTORY ==========
+
+----------- STATE AND CITY MANAGEMENT -----------
+1.  Add State
+2.  Add City
+3.  Update City Population
+4.  Delete City
+5.  Delete State
+6.  Rename State
+
+-------------------- QUERIES --------------------
+7.  Get City Population (State + City)
+8.  Get All Cities and Total Population of a State
+9.  Search City Across All States
+10. Get Cities Above Population Threshold
+
+--------------------- OTHER ---------------------
+11. Display All States and Cities
+0.  Exit
+==================================================
+Enter your choice: 7
+Enter state name: Andhra Pradesh
+Enter city name: Tadepalligudem
+Population: 50000
+
+========== STATE & CITY POPULATION DIRECTORY ==========
+
+----------- STATE AND CITY MANAGEMENT -----------
+1.  Add State
+2.  Add City
+3.  Update City Population
+4.  Delete City
+5.  Delete State
+6.  Rename State
+
+-------------------- QUERIES --------------------
+7.  Get City Population (State + City)
+8.  Get All Cities and Total Population of a State
+9.  Search City Across All States
+10. Get Cities Above Population Threshold
+
+--------------------- OTHER ---------------------
+11. Display All States and Cities
+0.  Exit
+==================================================
+Enter your choice: 8
+Enter state name: Andhra Pradesh
+
+State: Andhra Pradesh
+
+Cities and Populations:
+Visakhapatnam : 2000000
+Guntur : 700000
+Tadepalligudem : 50000
+Vijayawada : 1000000
+
+Total Population: 3750000
+
+========== STATE & CITY POPULATION DIRECTORY ==========
+
+----------- STATE AND CITY MANAGEMENT -----------
+1.  Add State
+2.  Add City
+3.  Update City Population
+4.  Delete City
+5.  Delete State
+6.  Rename State
+
+-------------------- QUERIES --------------------
+7.  Get City Population (State + City)
+8.  Get All Cities and Total Population of a State
+9.  Search City Across All States
+10. Get Cities Above Population Threshold
+
+--------------------- OTHER ---------------------
+11. Display All States and Cities
+0.  Exit
+==================================================
+Enter your choice: 7
+Enter state name: Andhra Pradesh
+Enter city name: Karnataka
+Error: City 'Karnataka' in State 'Andhra Pradesh' not found!
+
+========== STATE & CITY POPULATION DIRECTORY ==========
+
+----------- STATE AND CITY MANAGEMENT -----------
+1.  Add State
+2.  Add City
+3.  Update City Population
+4.  Delete City
+5.  Delete State
+6.  Rename State
+
+-------------------- QUERIES --------------------
+7.  Get City Population (State + City)
+8.  Get All Cities and Total Population of a State
+9.  Search City Across All States
+10. Get Cities Above Population Threshold
+
+--------------------- OTHER ---------------------
+11. Display All States and Cities
+0.  Exit
+==================================================
+Enter your choice: 9
+Enter city name: Hyderabad
+
+City: Hyderabad
+State: Telangana
+Population: 10000000
+
+========== STATE & CITY POPULATION DIRECTORY ==========
+
+----------- STATE AND CITY MANAGEMENT -----------
+1.  Add State
+2.  Add City
+3.  Update City Population
+4.  Delete City
+5.  Delete State
+6.  Rename State
+
+-------------------- QUERIES --------------------
+7.  Get City Population (State + City)
+8.  Get All Cities and Total Population of a State
+9.  Search City Across All States
+10. Get Cities Above Population Threshold
+
+--------------------- OTHER ---------------------
+11. Display All States and Cities
+0.  Exit
+==================================================
+Enter your choice: 10
+Enter population threshold: 10000
+
+Cities above population 10000:
+
+City: Karimnagar
+State: Telangana
+Population: 300000
+
+City: Warangal
+State: Telangana
+Population: 800000
+
+City: Hyderabad
+State: Telangana
+Population: 10000000
+
+City: Mangaluru
+State: Karnataka
+Population: 500000
+
+City: Bengaluru
+State: Karnataka
+Population: 8500000
+
+City: Mysuru
+State: Karnataka
+Population: 900000
+
+City: Visakhapatnam
+State: Andhra Pradesh
+Population: 2000000
+
+City: Vijayawada
+State: Andhra Pradesh
+Population: 1000000
+
+City: Guntur
+State: Andhra Pradesh
+Population: 700000
+
+City: Tadepalligudem
+State: Andhra Pradesh
+Population: 50000
+
+City: Coimbatore
+State: Tamil Nadu
+Population: 1500000
+
+City: Chennai
+State: Tamil Nadu
+Population: 7000000
+
+City: Madurai
+State: Tamil Nadu
+Population: 1500000
+
+========== STATE & CITY POPULATION DIRECTORY ==========
+
+----------- STATE AND CITY MANAGEMENT -----------
+1.  Add State
+2.  Add City
+3.  Update City Population
+4.  Delete City
+5.  Delete State
+6.  Rename State
+
+-------------------- QUERIES --------------------
+7.  Get City Population (State + City)
+8.  Get All Cities and Total Population of a State
+9.  Search City Across All States
+10. Get Cities Above Population Threshold
+
+--------------------- OTHER ---------------------
+11. Display All States and Cities
+0.  Exit
+==================================================
+Enter your choice: 11
+
+========== ALL STATES ==========
+
+State: Telangana
+  Karimnagar - 300000
+  Warangal - 800000
+  Hyderabad - 10000000
+
+State: Karnataka
+  Mangaluru - 500000
+  Bengaluru - 8500000
+  Mysuru - 900000
+
+State: Andhra Pradesh
+  Visakhapatnam - 2000000
+  Vijayawada - 1000000
+  Guntur - 700000
+  Tadepalligudem - 50000
+
+State: Tamil Nadu
+  Coimbatore - 1500000
+  Chennai - 7000000
+  Madurai - 1500000
+
+========== STATE & CITY POPULATION DIRECTORY ==========
+
+----------- STATE AND CITY MANAGEMENT -----------
+1.  Add State
+2.  Add City
+3.  Update City Population
+4.  Delete City
+5.  Delete State
+6.  Rename State
+
+-------------------- QUERIES --------------------
+7.  Get City Population (State + City)
+8.  Get All Cities and Total Population of a State
+9.  Search City Across All States
+10. Get Cities Above Population Threshold
+
+--------------------- OTHER ---------------------
+11. Display All States and Cities
+0.  Exit
+==================================================
+Enter your choice: 1
+Enter state name: Andhra Pradesh
+Error: State with name Andhra Pradesh already existed!
+
+========== STATE & CITY POPULATION DIRECTORY ==========
+
+----------- STATE AND CITY MANAGEMENT -----------
+1.  Add State
+2.  Add City
+3.  Update City Population
+4.  Delete City
+5.  Delete State
+6.  Rename State
+
+-------------------- QUERIES --------------------
+7.  Get City Population (State + City)
+8.  Get All Cities and Total Population of a State
+9.  Search City Across All States
+10. Get Cities Above Population Threshold
+
+--------------------- OTHER ---------------------
+11. Display All States and Cities
+0.  Exit
+==================================================
+Enter your choice: 0
+Exiting application. Goodbye!
