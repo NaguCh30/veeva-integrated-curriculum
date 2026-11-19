@@ -1,0 +1,379 @@
+VENDING MACHINE APPLICATION
+1. Admin
+2. User
+3. Exit
+Enter your choice: 1
+==================== ADMIN PANEL ====================
+ 1. Add Product
+ 2. View Product Details
+ 3. View All Products
+ 4. Update Product
+ 5. Remove Product
+ 6. Load Cash into Machine
+ 7. View Cash Denominations
+ 8. View Cash Balance
+ 9. View UPI Balance
+10. View Total Balance
+11. Collect Cash
+12. Collect UPI Money
+13. Collect Total Money
+14. Back to Main Menu
+Enter your choice: 1
+
+ADD PRODUCT
+Enter Product ID: 9
+Enter Product Name: Kurkure
+Enter Product Price: 20
+Enter Available Quantity: 25
+Product added successfully!
+
+==================== PRODUCT DETAILS ====================
+Product ID   : 9
+Product Name : Kurkure
+Product Price: Rs. 20.00
+Available Stock: 25
+
+==================== ADMIN PANEL ====================
+ 1. Add Product
+ 2. View Product Details
+ 3. View All Products
+ 4. Update Product
+ 5. Remove Product
+ 6. Load Cash into Machine
+ 7. View Cash Denominations
+ 8. View Cash Balance
+ 9. View UPI Balance
+10. View Total Balance
+11. Collect Cash
+12. Collect UPI Money
+13. Collect Total Money
+14. Back to Main Menu
+Enter your choice: 2
+Enter Product ID: 9
+
+==================== PRODUCT DETAILS ====================
+Product ID   : 9
+Product Name : Kurkure
+Product Price: Rs. 20.00
+Available Stock: 25
+
+==================== ADMIN PANEL ====================
+ 1. Add Product
+ 2. View Product Details
+ 3. View All Products
+ 4. Update Product
+ 5. Remove Product
+ 6. Load Cash into Machine
+ 7. View Cash Denominations
+ 8. View Cash Balance
+ 9. View UPI Balance
+10. View Total Balance
+11. Collect Cash
+12. Collect UPI Money
+13. Collect Total Money
+14. Back to Main Menu
+Enter your choice: 3
+===================================== VENDING MACHINE INVENTORY =====================================
++------------------------+------------------------+------------------------+------------------------+
+| BOX-01                 | BOX-02                 | BOX-03                 | BOX-04                 |
+| Product: Soda          | Product: Chips         | Product: Chocolate     | Product: Water Bottle  |
+| Price   : Rs. 40.00    | Price   : Rs. 20.00    | Price   : Rs. 30.00    | Price   : Rs. 20.00    |
+| Stock   : 10           | Stock   : 15           | Stock   : 12           | Stock   : 20           |
++------------------------+------------------------+------------------------+------------------------+
+| BOX-05                 | BOX-06                 | BOX-07                 | BOX-08                 |
+| Product: Biscuits      | Product: Juice         | Product: Cookies       | Product: Energy Drink  |
+| Price   : Rs. 25.00    | Price   : Rs. 50.00    | Price   : Rs. 35.00    | Price   : Rs. 60.00    |
+| Stock   : 10           | Stock   : 8            | Stock   : 10           | Stock   : 5            |
++------------------------+------------------------+------------------------+------------------------+
+| BOX-09                 | BOX-10                 | BOX-11                 | BOX-12                 |
+| Product: Kurkure       | Product: EMPTY         | Product: EMPTY         | Product: EMPTY         |
+| Price   : Rs. 20.00    | Price   : -            | Price   : -            | Price   : -            |
+| Stock   : 25           | Stock   : -            | Stock   : -            | Stock   : -            |
++------------------------+------------------------+------------------------+------------------------+
+==================== ADMIN PANEL ====================
+ 1. Add Product
+ 2. View Product Details
+ 3. View All Products
+ 4. Update Product
+ 5. Remove Product
+ 6. Load Cash into Machine
+ 7. View Cash Denominations
+ 8. View Cash Balance
+ 9. View UPI Balance
+10. View Total Balance
+11. Collect Cash
+12. Collect UPI Money
+13. Collect Total Money
+14. Back to Main Menu
+Enter your choice: 4
+
+UPDATE PRODUCT
+Enter Product ID: 9
+
+==================== PRODUCT DETAILS ====================
+Product ID   : 9
+Product Name : Kurkure
+Product Price: Rs. 20.00
+Available Stock: 25
+
+Enter New Product Name: Masala Kurkure
+Enter New Price: 25
+Enter New Available Quantity: 30
+Product updated successfully!
+
+==================== PRODUCT DETAILS ====================
+Product ID   : 9
+Product Name : Masala Kurkure
+Product Price: Rs. 25.00
+Available Stock: 30
+
+==================== ADMIN PANEL ====================
+ 1. Add Product
+ 2. View Product Details
+ 3. View All Products
+ 4. Update Product
+ 5. Remove Product
+ 6. Load Cash into Machine
+ 7. View Cash Denominations
+ 8. View Cash Balance
+ 9. View UPI Balance
+10. View Total Balance
+11. Collect Cash
+12. Collect UPI Money
+13. Collect Total Money
+14. Back to Main Menu
+Enter your choice: 5
+
+REMOVE PRODUCT
+Enter Product ID: 9
+
+==================== PRODUCT DETAILS ====================
+Product ID   : 9
+Product Name : Masala Kurkure
+Product Price: Rs. 25.00
+Available Stock: 30
+
+Confirm removal (YES/NO): YES
+Product removed successfully!
+==================== ADMIN PANEL ====================
+ 1. Add Product
+ 2. View Product Details
+ 3. View All Products
+ 4. Update Product
+ 5. Remove Product
+ 6. Load Cash into Machine
+ 7. View Cash Denominations
+ 8. View Cash Balance
+ 9. View UPI Balance
+10. View Total Balance
+11. Collect Cash
+12. Collect UPI Money
+13. Collect Total Money
+14. Back to Main Menu
+Enter your choice: 6
+
+LOAD CASH INTO MACHINE
+Number of Rs. 500 notes/coins to add: 2
+Number of Rs. 200 notes/coins to add: 3
+Number of Rs. 100 notes/coins to add: 5
+Number of Rs. 50 notes/coins to add: 4
+Number of Rs. 20 notes/coins to add: 10
+Number of Rs. 10 notes/coins to add: 10
+Number of Rs. 5 notes/coins to add: 5
+Number of Rs. 2 notes/coins to add: 5
+Number of Rs. 1 notes/coins to add: 10
+Cash loaded successfully!
+
+CASH DENOMINATION INVENTORY
+Denomination       Quantity
+Rs. 500             4
+Rs. 200             8
+Rs. 100             15
+Rs. 50              14
+Rs. 20              30
+Rs. 10              40
+Rs. 5               25
+Rs. 2               25
+Rs. 1               30
+
+CASH BALANCE
+Available Cash: Rs. 7005.00
+==================== ADMIN PANEL ====================
+ 1. Add Product
+ 2. View Product Details
+ 3. View All Products
+ 4. Update Product
+ 5. Remove Product
+ 6. Load Cash into Machine
+ 7. View Cash Denominations
+ 8. View Cash Balance
+ 9. View UPI Balance
+10. View Total Balance
+11. Collect Cash
+12. Collect UPI Money
+13. Collect Total Money
+14. Back to Main Menu
+Enter your choice: 7
+
+CASH DENOMINATION INVENTORY
+Denomination       Quantity
+Rs. 500             4
+Rs. 200             8
+Rs. 100             15
+Rs. 50              14
+Rs. 20              30
+Rs. 10              40
+Rs. 5               25
+Rs. 2               25
+Rs. 1               30
+==================== ADMIN PANEL ====================
+ 1. Add Product
+ 2. View Product Details
+ 3. View All Products
+ 4. Update Product
+ 5. Remove Product
+ 6. Load Cash into Machine
+ 7. View Cash Denominations
+ 8. View Cash Balance
+ 9. View UPI Balance
+10. View Total Balance
+11. Collect Cash
+12. Collect UPI Money
+13. Collect Total Money
+14. Back to Main Menu
+Enter your choice: 8
+
+CASH BALANCE
+Available Cash: Rs. 7005.00
+==================== ADMIN PANEL ====================
+ 1. Add Product
+ 2. View Product Details
+ 3. View All Products
+ 4. Update Product
+ 5. Remove Product
+ 6. Load Cash into Machine
+ 7. View Cash Denominations
+ 8. View Cash Balance
+ 9. View UPI Balance
+10. View Total Balance
+11. Collect Cash
+12. Collect UPI Money
+13. Collect Total Money
+14. Back to Main Menu
+Enter your choice: 9
+
+UPI BALANCE
+Available UPI Money: Rs. 0.00
+==================== ADMIN PANEL ====================
+ 1. Add Product
+ 2. View Product Details
+ 3. View All Products
+ 4. Update Product
+ 5. Remove Product
+ 6. Load Cash into Machine
+ 7. View Cash Denominations
+ 8. View Cash Balance
+ 9. View UPI Balance
+10. View Total Balance
+11. Collect Cash
+12. Collect UPI Money
+13. Collect Total Money
+14. Back to Main Menu
+Enter your choice: 10
+
+MACHINE BALANCE
+Cash Balance : Rs. 7005.00
+UPI Balance  : Rs. 0.00
+Total Balance: Rs. 7005.00
+==================== ADMIN PANEL ====================
+ 1. Add Product
+ 2. View Product Details
+ 3. View All Products
+ 4. Update Product
+ 5. Remove Product
+ 6. Load Cash into Machine
+ 7. View Cash Denominations
+ 8. View Cash Balance
+ 9. View UPI Balance
+10. View Total Balance
+11. Collect Cash
+12. Collect UPI Money
+13. Collect Total Money
+14. Back to Main Menu
+Enter your choice: 11
+
+COLLECT CASH
+Cash collection completed.
+
+CASH BALANCE
+Available Cash: Rs. 0.00
+==================== ADMIN PANEL ====================
+ 1. Add Product
+ 2. View Product Details
+ 3. View All Products
+ 4. Update Product
+ 5. Remove Product
+ 6. Load Cash into Machine
+ 7. View Cash Denominations
+ 8. View Cash Balance
+ 9. View UPI Balance
+10. View Total Balance
+11. Collect Cash
+12. Collect UPI Money
+13. Collect Total Money
+14. Back to Main Menu
+Enter your choice: 12
+
+COLLECT UPI MONEY
+UPI collection completed.
+
+UPI BALANCE
+Available UPI Money: Rs. 0.00
+==================== ADMIN PANEL ====================
+ 1. Add Product
+ 2. View Product Details
+ 3. View All Products
+ 4. Update Product
+ 5. Remove Product
+ 6. Load Cash into Machine
+ 7. View Cash Denominations
+ 8. View Cash Balance
+ 9. View UPI Balance
+10. View Total Balance
+11. Collect Cash
+12. Collect UPI Money
+13. Collect Total Money
+14. Back to Main Menu
+Enter your choice: 13
+
+COLLECT TOTAL MONEY
+Total money collection completed.
+
+MACHINE BALANCE
+Cash Balance : Rs. 0.00
+UPI Balance  : Rs. 0.00
+Total Balance: Rs. 0.00
+==================== ADMIN PANEL ====================
+ 1. Add Product
+ 2. View Product Details
+ 3. View All Products
+ 4. Update Product
+ 5. Remove Product
+ 6. Load Cash into Machine
+ 7. View Cash Denominations
+ 8. View Cash Balance
+ 9. View UPI Balance
+10. View Total Balance
+11. Collect Cash
+12. Collect UPI Money
+13. Collect Total Money
+14. Back to Main Menu
+Enter your choice: 14
+
+VENDING MACHINE APPLICATION
+1. Admin
+2. User
+3. Exit
+Enter your choice: 3
+
+Thank you for using the Vending Machine!

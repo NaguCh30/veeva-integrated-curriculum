@@ -1,0 +1,532 @@
+"C:\Program Files\Java\jdk-21.0.12.1\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2026.3\plugins\java\lib\idea_rt.jar=55014" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath D:\Nagu\Veeva\Practice\Pending\vending-machine\out\production\vending-machine Main
+
+VENDING MACHINE APPLICATION
+1. Admin
+2. User
+3. Exit
+Enter your choice: 2
+==================== USER PANEL ====================
+1. View All Products
+2. View Product Details
+3. View Available Cash Denominations
+4. Purchase Products
+5. Back to Main Menu
+Enter your choice: 1
+===================================== VENDING MACHINE INVENTORY =====================================
++------------------------+------------------------+------------------------+------------------------+
+| BOX-01                 | BOX-02                 | BOX-03                 | BOX-04                 |
+| Product: Soda          | Product: Chips         | Product: Chocolate     | Product: Water Bottle  |
+| Price   : Rs. 40.00    | Price   : Rs. 20.00    | Price   : Rs. 30.00    | Price   : Rs. 20.00    |
+| Stock   : 10           | Stock   : 15           | Stock   : 12           | Stock   : 20           |
++------------------------+------------------------+------------------------+------------------------+
+| BOX-05                 | BOX-06                 | BOX-07                 | BOX-08                 |
+| Product: Biscuits      | Product: Juice         | Product: Cookies       | Product: Energy Drink  |
+| Price   : Rs. 25.00    | Price   : Rs. 50.00    | Price   : Rs. 35.00    | Price   : Rs. 60.00    |
+| Stock   : 10           | Stock   : 8            | Stock   : 10           | Stock   : 5            |
++------------------------+------------------------+------------------------+------------------------+
+| BOX-09                 | BOX-10                 | BOX-11                 | BOX-12                 |
+| Product: EMPTY         | Product: EMPTY         | Product: EMPTY         | Product: EMPTY         |
+| Price   : -            | Price   : -            | Price   : -            | Price   : -            |
+| Stock   : -            | Stock   : -            | Stock   : -            | Stock   : -            |
++------------------------+------------------------+------------------------+------------------------+
+==================== USER PANEL ====================
+1. View All Products
+2. View Product Details
+3. View Available Cash Denominations
+4. Purchase Products
+5. Back to Main Menu
+Enter your choice: 2
+Enter Product ID: 1
+
+==================== PRODUCT DETAILS ====================
+Product ID   : 1
+Product Name : Soda
+Product Price: Rs. 40.00
+Available Stock: 10
+
+==================== USER PANEL ====================
+1. View All Products
+2. View Product Details
+3. View Available Cash Denominations
+4. Purchase Products
+5. Back to Main Menu
+Enter your choice: 3
+
+ACCEPTED CASH DENOMINATIONS
+Denomination
+Rs. 500
+Rs. 200
+Rs. 100
+Rs. 50
+Rs. 20
+Rs. 10
+Rs. 5
+Rs. 2
+Rs. 1
+==================== USER PANEL ====================
+1. View All Products
+2. View Product Details
+3. View Available Cash Denominations
+4. Purchase Products
+5. Back to Main Menu
+Enter your choice: 4
+
+PRODUCT SELECTION
+===================================== VENDING MACHINE INVENTORY =====================================
++------------------------+------------------------+------------------------+------------------------+
+| BOX-01                 | BOX-02                 | BOX-03                 | BOX-04                 |
+| Product: Soda          | Product: Chips         | Product: Chocolate     | Product: Water Bottle  |
+| Price   : Rs. 40.00    | Price   : Rs. 20.00    | Price   : Rs. 30.00    | Price   : Rs. 20.00    |
+| Stock   : 10           | Stock   : 15           | Stock   : 12           | Stock   : 20           |
++------------------------+------------------------+------------------------+------------------------+
+| BOX-05                 | BOX-06                 | BOX-07                 | BOX-08                 |
+| Product: Biscuits      | Product: Juice         | Product: Cookies       | Product: Energy Drink  |
+| Price   : Rs. 25.00    | Price   : Rs. 50.00    | Price   : Rs. 35.00    | Price   : Rs. 60.00    |
+| Stock   : 10           | Stock   : 8            | Stock   : 10           | Stock   : 5            |
++------------------------+------------------------+------------------------+------------------------+
+| BOX-09                 | BOX-10                 | BOX-11                 | BOX-12                 |
+| Product: EMPTY         | Product: EMPTY         | Product: EMPTY         | Product: EMPTY         |
+| Price   : -            | Price   : -            | Price   : -            | Price   : -            |
+| Stock   : -            | Stock   : -            | Stock   : -            | Stock   : -            |
++------------------------+------------------------+------------------------+------------------------+
+Enter Product ID (0 to finish, CANCEL to cancel): 1
+
+==================== PRODUCT DETAILS ====================
+Product ID   : 1
+Product Name : Soda
+Product Price: Rs. 40.00
+Available Stock: 10
+
+Enter quantity: 2
+Product added to selection.
+Enter Product ID (0 to finish, CANCEL to cancel): 2
+
+==================== PRODUCT DETAILS ====================
+Product ID   : 2
+Product Name : Chips
+Product Price: Rs. 20.00
+Available Stock: 15
+
+Enter quantity: 1
+Product added to selection.
+Enter Product ID (0 to finish, CANCEL to cancel): 0
+
+ORDER SUMMARY
+ID       Product              Quantity   Subtotal
+1        Soda                 2          Rs. 80.00
+2        Chips                1          Rs. 20.00
+
+TOTAL AMOUNT: Rs. 100.00
+
+Select Payment Method (CASH / UPI): CASH
+
+CASH PAYMENT
+Enter number of Rs. 500 notes/coins: 1
+Enter number of Rs. 200 notes/coins: 0
+Enter number of Rs. 100 notes/coins: 0
+Enter number of Rs. 50 notes/coins: 0
+Enter number of Rs. 20 notes/coins: 0
+Enter number of Rs. 10 notes/coins: 0
+Enter number of Rs. 5 notes/coins: 0
+Enter number of Rs. 2 notes/coins: 0
+Enter number of Rs. 1 notes/coins: 0
+
+Total Amount Inserted: Rs. 500.00
+
+PURCHASE SUCCESSFUL
+Selected Products:
+Product ID: 1 | Quantity: 2
+Product ID: 2 | Quantity: 1
+Total Cost     : Rs. 100.00
+Payment Method : CASH
+Amount Paid    : Rs. 500.00
+Change Returned: Rs. 400.00
+
+Updated Inventory:
+===================================== VENDING MACHINE INVENTORY =====================================
++------------------------+------------------------+------------------------+------------------------+
+| BOX-01                 | BOX-02                 | BOX-03                 | BOX-04                 |
+| Product: Soda          | Product: Chips         | Product: Chocolate     | Product: Water Bottle  |
+| Price   : Rs. 40.00    | Price   : Rs. 20.00    | Price   : Rs. 30.00    | Price   : Rs. 20.00    |
+| Stock   : 8            | Stock   : 14           | Stock   : 12           | Stock   : 20           |
++------------------------+------------------------+------------------------+------------------------+
+| BOX-05                 | BOX-06                 | BOX-07                 | BOX-08                 |
+| Product: Biscuits      | Product: Juice         | Product: Cookies       | Product: Energy Drink  |
+| Price   : Rs. 25.00    | Price   : Rs. 50.00    | Price   : Rs. 35.00    | Price   : Rs. 60.00    |
+| Stock   : 10           | Stock   : 8            | Stock   : 10           | Stock   : 5            |
++------------------------+------------------------+------------------------+------------------------+
+| BOX-09                 | BOX-10                 | BOX-11                 | BOX-12                 |
+| Product: EMPTY         | Product: EMPTY         | Product: EMPTY         | Product: EMPTY         |
+| Price   : -            | Price   : -            | Price   : -            | Price   : -            |
+| Stock   : -            | Stock   : -            | Stock   : -            | Stock   : -            |
++------------------------+------------------------+------------------------+------------------------+
+==================== USER PANEL ====================
+1. View All Products
+2. View Product Details
+3. View Available Cash Denominations
+4. Purchase Products
+5. Back to Main Menu
+Enter your choice: 4
+
+PRODUCT SELECTION
+===================================== VENDING MACHINE INVENTORY =====================================
++------------------------+------------------------+------------------------+------------------------+
+| BOX-01                 | BOX-02                 | BOX-03                 | BOX-04                 |
+| Product: Soda          | Product: Chips         | Product: Chocolate     | Product: Water Bottle  |
+| Price   : Rs. 40.00    | Price   : Rs. 20.00    | Price   : Rs. 30.00    | Price   : Rs. 20.00    |
+| Stock   : 8            | Stock   : 14           | Stock   : 12           | Stock   : 20           |
++------------------------+------------------------+------------------------+------------------------+
+| BOX-05                 | BOX-06                 | BOX-07                 | BOX-08                 |
+| Product: Biscuits      | Product: Juice         | Product: Cookies       | Product: Energy Drink  |
+| Price   : Rs. 25.00    | Price   : Rs. 50.00    | Price   : Rs. 35.00    | Price   : Rs. 60.00    |
+| Stock   : 10           | Stock   : 8            | Stock   : 10           | Stock   : 5            |
++------------------------+------------------------+------------------------+------------------------+
+| BOX-09                 | BOX-10                 | BOX-11                 | BOX-12                 |
+| Product: EMPTY         | Product: EMPTY         | Product: EMPTY         | Product: EMPTY         |
+| Price   : -            | Price   : -            | Price   : -            | Price   : -            |
+| Stock   : -            | Stock   : -            | Stock   : -            | Stock   : -            |
++------------------------+------------------------+------------------------+------------------------+
+Enter Product ID (0 to finish, CANCEL to cancel): 4
+
+==================== PRODUCT DETAILS ====================
+Product ID   : 4
+Product Name : Water Bottle
+Product Price: Rs. 20.00
+Available Stock: 20
+
+Enter quantity: 2
+Product added to selection.
+Enter Product ID (0 to finish, CANCEL to cancel): 5
+
+==================== PRODUCT DETAILS ====================
+Product ID   : 5
+Product Name : Biscuits
+Product Price: Rs. 25.00
+Available Stock: 10
+
+Enter quantity: 1
+Product added to selection.
+Enter Product ID (0 to finish, CANCEL to cancel): 0
+
+ORDER SUMMARY
+ID       Product              Quantity   Subtotal
+4        Water Bottle         2          Rs. 40.00
+5        Biscuits             1          Rs. 25.00
+
+TOTAL AMOUNT: Rs. 65.00
+
+Select Payment Method (CASH / UPI): UPI
+
+UPI PAYMENT
+Enter UPI payment amount: 65
+
+Total Amount Inserted: Rs. 65.00
+
+PURCHASE SUCCESSFUL
+Selected Products:
+Product ID: 4 | Quantity: 2
+Product ID: 5 | Quantity: 1
+Total Cost     : Rs. 65.00
+Payment Method : UPI
+Amount Paid    : Rs. 65.00
+Change Returned: Rs. 0.00
+
+Updated Inventory:
+===================================== VENDING MACHINE INVENTORY =====================================
++------------------------+------------------------+------------------------+------------------------+
+| BOX-01                 | BOX-02                 | BOX-03                 | BOX-04                 |
+| Product: Soda          | Product: Chips         | Product: Chocolate     | Product: Water Bottle  |
+| Price   : Rs. 40.00    | Price   : Rs. 20.00    | Price   : Rs. 30.00    | Price   : Rs. 20.00    |
+| Stock   : 8            | Stock   : 14           | Stock   : 12           | Stock   : 18           |
++------------------------+------------------------+------------------------+------------------------+
+| BOX-05                 | BOX-06                 | BOX-07                 | BOX-08                 |
+| Product: Biscuits      | Product: Juice         | Product: Cookies       | Product: Energy Drink  |
+| Price   : Rs. 25.00    | Price   : Rs. 50.00    | Price   : Rs. 35.00    | Price   : Rs. 60.00    |
+| Stock   : 9            | Stock   : 8            | Stock   : 10           | Stock   : 5            |
++------------------------+------------------------+------------------------+------------------------+
+| BOX-09                 | BOX-10                 | BOX-11                 | BOX-12                 |
+| Product: EMPTY         | Product: EMPTY         | Product: EMPTY         | Product: EMPTY         |
+| Price   : -            | Price   : -            | Price   : -            | Price   : -            |
+| Stock   : -            | Stock   : -            | Stock   : -            | Stock   : -            |
++------------------------+------------------------+------------------------+------------------------+
+==================== USER PANEL ====================
+1. View All Products
+2. View Product Details
+3. View Available Cash Denominations
+4. Purchase Products
+5. Back to Main Menu
+Enter your choice: 4
+
+PRODUCT SELECTION
+===================================== VENDING MACHINE INVENTORY =====================================
++------------------------+------------------------+------------------------+------------------------+
+| BOX-01                 | BOX-02                 | BOX-03                 | BOX-04                 |
+| Product: Soda          | Product: Chips         | Product: Chocolate     | Product: Water Bottle  |
+| Price   : Rs. 40.00    | Price   : Rs. 20.00    | Price   : Rs. 30.00    | Price   : Rs. 20.00    |
+| Stock   : 8            | Stock   : 14           | Stock   : 12           | Stock   : 18           |
++------------------------+------------------------+------------------------+------------------------+
+| BOX-05                 | BOX-06                 | BOX-07                 | BOX-08                 |
+| Product: Biscuits      | Product: Juice         | Product: Cookies       | Product: Energy Drink  |
+| Price   : Rs. 25.00    | Price   : Rs. 50.00    | Price   : Rs. 35.00    | Price   : Rs. 60.00    |
+| Stock   : 9            | Stock   : 8            | Stock   : 10           | Stock   : 5            |
++------------------------+------------------------+------------------------+------------------------+
+| BOX-09                 | BOX-10                 | BOX-11                 | BOX-12                 |
+| Product: EMPTY         | Product: EMPTY         | Product: EMPTY         | Product: EMPTY         |
+| Price   : -            | Price   : -            | Price   : -            | Price   : -            |
+| Stock   : -            | Stock   : -            | Stock   : -            | Stock   : -            |
++------------------------+------------------------+------------------------+------------------------+
+Enter Product ID (0 to finish, CANCEL to cancel): 6
+
+==================== PRODUCT DETAILS ====================
+Product ID   : 6
+Product Name : Juice
+Product Price: Rs. 50.00
+Available Stock: 8
+
+Enter quantity: 2
+Product added to selection.
+Enter Product ID (0 to finish, CANCEL to cancel): 0
+
+ORDER SUMMARY
+ID       Product              Quantity   Subtotal
+6        Juice                2          Rs. 100.00
+
+TOTAL AMOUNT: Rs. 100.00
+
+Select Payment Method (CASH / UPI): UPI
+
+UPI PAYMENT
+Enter UPI payment amount: 50
+
+Total Amount Inserted: Rs. 50.00
+Purchase failed: Please pay the exact purchase amount using UPI.
+==================== USER PANEL ====================
+1. View All Products
+2. View Product Details
+3. View Available Cash Denominations
+4. Purchase Products
+5. Back to Main Menu
+Enter your choice: 4
+
+PRODUCT SELECTION
+===================================== VENDING MACHINE INVENTORY =====================================
++------------------------+------------------------+------------------------+------------------------+
+| BOX-01                 | BOX-02                 | BOX-03                 | BOX-04                 |
+| Product: Soda          | Product: Chips         | Product: Chocolate     | Product: Water Bottle  |
+| Price   : Rs. 40.00    | Price   : Rs. 20.00    | Price   : Rs. 30.00    | Price   : Rs. 20.00    |
+| Stock   : 8            | Stock   : 14           | Stock   : 12           | Stock   : 18           |
++------------------------+------------------------+------------------------+------------------------+
+| BOX-05                 | BOX-06                 | BOX-07                 | BOX-08                 |
+| Product: Biscuits      | Product: Juice         | Product: Cookies       | Product: Energy Drink  |
+| Price   : Rs. 25.00    | Price   : Rs. 50.00    | Price   : Rs. 35.00    | Price   : Rs. 60.00    |
+| Stock   : 9            | Stock   : 8            | Stock   : 10           | Stock   : 5            |
++------------------------+------------------------+------------------------+------------------------+
+| BOX-09                 | BOX-10                 | BOX-11                 | BOX-12                 |
+| Product: EMPTY         | Product: EMPTY         | Product: EMPTY         | Product: EMPTY         |
+| Price   : -            | Price   : -            | Price   : -            | Price   : -            |
+| Stock   : -            | Stock   : -            | Stock   : -            | Stock   : -            |
++------------------------+------------------------+------------------------+------------------------+
+Enter Product ID (0 to finish, CANCEL to cancel): 1
+
+==================== PRODUCT DETAILS ====================
+Product ID   : 1
+Product Name : Soda
+Product Price: Rs. 40.00
+Available Stock: 8
+
+Enter quantity: 10
+Product added to selection.
+Enter Product ID (0 to finish, CANCEL to cancel): 0
+
+ORDER SUMMARY
+ID       Product              Quantity   Subtotal
+1        Soda                 10         Rs. 400.00
+
+TOTAL AMOUNT: Rs. 400.00
+
+Select Payment Method (CASH / UPI): CASH
+
+CASH PAYMENT
+Enter number of Rs. 500 notes/coins: 1
+Enter number of Rs. 200 notes/coins: 0
+Enter number of Rs. 100 notes/coins: 0
+Enter number of Rs. 50 notes/coins: 0
+Enter number of Rs. 20 notes/coins: 0
+Enter number of Rs. 10 notes/coins: 0
+Enter number of Rs. 5 notes/coins: 0
+Enter number of Rs. 2 notes/coins: 0
+Enter number of Rs. 1 notes/coins: 0
+
+Total Amount Inserted: Rs. 500.00
+Purchase failed: Only 8 units of Soda are available.
+==================== USER PANEL ====================
+1. View All Products
+2. View Product Details
+3. View Available Cash Denominations
+4. Purchase Products
+5. Back to Main Menu
+Enter your choice: 4
+
+PRODUCT SELECTION
+===================================== VENDING MACHINE INVENTORY =====================================
++------------------------+------------------------+------------------------+------------------------+
+| BOX-01                 | BOX-02                 | BOX-03                 | BOX-04                 |
+| Product: Soda          | Product: Chips         | Product: Chocolate     | Product: Water Bottle  |
+| Price   : Rs. 40.00    | Price   : Rs. 20.00    | Price   : Rs. 30.00    | Price   : Rs. 20.00    |
+| Stock   : 8            | Stock   : 14           | Stock   : 12           | Stock   : 18           |
++------------------------+------------------------+------------------------+------------------------+
+| BOX-05                 | BOX-06                 | BOX-07                 | BOX-08                 |
+| Product: Biscuits      | Product: Juice         | Product: Cookies       | Product: Energy Drink  |
+| Price   : Rs. 25.00    | Price   : Rs. 50.00    | Price   : Rs. 35.00    | Price   : Rs. 60.00    |
+| Stock   : 9            | Stock   : 8            | Stock   : 10           | Stock   : 5            |
++------------------------+------------------------+------------------------+------------------------+
+| BOX-09                 | BOX-10                 | BOX-11                 | BOX-12                 |
+| Product: EMPTY         | Product: EMPTY         | Product: EMPTY         | Product: EMPTY         |
+| Price   : -            | Price   : -            | Price   : -            | Price   : -            |
+| Stock   : -            | Stock   : -            | Stock   : -            | Stock   : -            |
++------------------------+------------------------+------------------------+------------------------+
+Enter Product ID (0 to finish, CANCEL to cancel): 999
+Unable to select product: There is no product with ID 999 in the vending machine.
+Enter Product ID (0 to finish, CANCEL to cancel): 4
+
+==================== PRODUCT DETAILS ====================
+Product ID   : 4
+Product Name : Water Bottle
+Product Price: Rs. 20.00
+Available Stock: 18
+
+Enter quantity: 1
+Product added to selection.
+Enter Product ID (0 to finish, CANCEL to cancel): 2
+
+==================== PRODUCT DETAILS ====================
+Product ID   : 2
+Product Name : Chips
+Product Price: Rs. 20.00
+Available Stock: 14
+
+Enter quantity: 1
+Product added to selection.
+Enter Product ID (0 to finish, CANCEL to cancel): 2
+
+==================== PRODUCT DETAILS ====================
+Product ID   : 2
+Product Name : Chips
+Product Price: Rs. 20.00
+Available Stock: 14
+
+Enter quantity: 3
+Product added to selection.
+Enter Product ID (0 to finish, CANCEL to cancel): 0
+
+ORDER SUMMARY
+ID       Product              Quantity   Subtotal
+4        Water Bottle         1          Rs. 20.00
+2        Chips                4          Rs. 80.00
+
+TOTAL AMOUNT: Rs. 100.00
+
+Select Payment Method (CASH / UPI): UPI
+
+UPI PAYMENT
+Enter UPI payment amount: 100
+
+Total Amount Inserted: Rs. 100.00
+
+PURCHASE SUCCESSFUL
+Selected Products:
+Product ID: 4 | Quantity: 1
+Product ID: 2 | Quantity: 4
+Total Cost     : Rs. 100.00
+Payment Method : UPI
+Amount Paid    : Rs. 100.00
+Change Returned: Rs. 0.00
+
+Updated Inventory:
+===================================== VENDING MACHINE INVENTORY =====================================
++------------------------+------------------------+------------------------+------------------------+
+| BOX-01                 | BOX-02                 | BOX-03                 | BOX-04                 |
+| Product: Soda          | Product: Chips         | Product: Chocolate     | Product: Water Bottle  |
+| Price   : Rs. 40.00    | Price   : Rs. 20.00    | Price   : Rs. 30.00    | Price   : Rs. 20.00    |
+| Stock   : 8            | Stock   : 10           | Stock   : 12           | Stock   : 17           |
++------------------------+------------------------+------------------------+------------------------+
+| BOX-05                 | BOX-06                 | BOX-07                 | BOX-08                 |
+| Product: Biscuits      | Product: Juice         | Product: Cookies       | Product: Energy Drink  |
+| Price   : Rs. 25.00    | Price   : Rs. 50.00    | Price   : Rs. 35.00    | Price   : Rs. 60.00    |
+| Stock   : 9            | Stock   : 8            | Stock   : 10           | Stock   : 5            |
++------------------------+------------------------+------------------------+------------------------+
+| BOX-09                 | BOX-10                 | BOX-11                 | BOX-12                 |
+| Product: EMPTY         | Product: EMPTY         | Product: EMPTY         | Product: EMPTY         |
+| Price   : -            | Price   : -            | Price   : -            | Price   : -            |
+| Stock   : -            | Stock   : -            | Stock   : -            | Stock   : -            |
++------------------------+------------------------+------------------------+------------------------+
+==================== USER PANEL ====================
+1. View All Products
+2. View Product Details
+3. View Available Cash Denominations
+4. Purchase Products
+5. Back to Main Menu
+Enter your choice: 4
+
+PRODUCT SELECTION
+===================================== VENDING MACHINE INVENTORY =====================================
++------------------------+------------------------+------------------------+------------------------+
+| BOX-01                 | BOX-02                 | BOX-03                 | BOX-04                 |
+| Product: Soda          | Product: Chips         | Product: Chocolate     | Product: Water Bottle  |
+| Price   : Rs. 40.00    | Price   : Rs. 20.00    | Price   : Rs. 30.00    | Price   : Rs. 20.00    |
+| Stock   : 8            | Stock   : 10           | Stock   : 12           | Stock   : 17           |
++------------------------+------------------------+------------------------+------------------------+
+| BOX-05                 | BOX-06                 | BOX-07                 | BOX-08                 |
+| Product: Biscuits      | Product: Juice         | Product: Cookies       | Product: Energy Drink  |
+| Price   : Rs. 25.00    | Price   : Rs. 50.00    | Price   : Rs. 35.00    | Price   : Rs. 60.00    |
+| Stock   : 9            | Stock   : 8            | Stock   : 10           | Stock   : 5            |
++------------------------+------------------------+------------------------+------------------------+
+| BOX-09                 | BOX-10                 | BOX-11                 | BOX-12                 |
+| Product: EMPTY         | Product: EMPTY         | Product: EMPTY         | Product: EMPTY         |
+| Price   : -            | Price   : -            | Price   : -            | Price   : -            |
+| Stock   : -            | Stock   : -            | Stock   : -            | Stock   : -            |
++------------------------+------------------------+------------------------+------------------------+
+Enter Product ID (0 to finish, CANCEL to cancel): 1
+
+==================== PRODUCT DETAILS ====================
+Product ID   : 1
+Product Name : Soda
+Product Price: Rs. 40.00
+Available Stock: 8
+
+Enter quantity: 2
+Product added to selection.
+Enter Product ID (0 to finish, CANCEL to cancel): 1
+
+==================== PRODUCT DETAILS ====================
+Product ID   : 1
+Product Name : Soda
+Product Price: Rs. 40.00
+Available Stock: 8
+
+Enter quantity: 3
+Product added to selection.
+Enter Product ID (0 to finish, CANCEL to cancel): 0
+
+ORDER SUMMARY
+ID       Product              Quantity   Subtotal
+1        Soda                 5          Rs. 200.00
+
+TOTAL AMOUNT: Rs. 200.00
+
+Select Payment Method (CASH / UPI): CANCEL
+Purchase cancelled.
+==================== USER PANEL ====================
+1. View All Products
+2. View Product Details
+3. View Available Cash Denominations
+4. Purchase Products
+5. Back to Main Menu
+Enter your choice: 5
+
+VENDING MACHINE APPLICATION
+1. Admin
+2. User
+3. Exit
+Enter your choice: 3
+Thank you for using the Vending Machine!
