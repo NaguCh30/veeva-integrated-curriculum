@@ -1,0 +1,28 @@
+Web Page Opened Successfully!
+
+1. First locate the product card with ID P104. Then locate its product name relative to that card.
+Located successfully!
+
+2. Locate the Buy button inside the Laptop Pro product card.
+Located successfully!
+
+3. Locate the Details button inside the Smartphone X product card.
+Located successfully!
+
+4. Locate the stock status inside the Mechanical Keyboard card.
+Located successfully!
+
+5. Locate the experience paragraph inside David's employee card.
+Located successfully!
+
+6. Locate the View Profile button inside John's employee card.
+Located successfully!
+
+7. Locate all paragraph elements inside the employee card belonging to Mike.
+Total elements: 3
+
+8. Locate the password field inside the login form.
+Login form password field located.
+
+9. Locate all checkboxes inside the registration form.
+Total elements: 3

@@ -1,0 +1,46 @@
+Web Page Opened Successfully!
+
+1. Locate the login button using its exact text.
+Login button located using text() and 'Login'
+
+2. Locate the registration button using its exact text.
+Registration button located using text() and 'Create Account'
+
+3. Locate the product named Laptop Pro
+Product with name Laptop Pro is selected.
+
+4. Locate the product card having data-product-id='P103'.
+Product with data-product-id = 'P103' is located.
+
+5. Locate all product cards having data-category='accessories'.
+All products with accessories category are selected. Total products: 2
+
+6. Locate all inputs having type='password'.
+All password inputs are selected. Total elements: 4
+
+7. Locate all buttons whose text contains View.
+All buttons which contains text 'View' are selected. Total elements: 3
+
+8. Locate all product names whose text contains Monitor.
+Located all elements which contains text 'Monitor'. Total elements: 1
+
+9. Locate all elements whose class contains featured.
+Located all elements whose class contains featured. Total elements: 2
+
+10. Locate all inputs whose IDs start with dynamic-username.
+Located all inputs whose IDs starts with dynamic-username. Total elements: 1
+
+11. Locate all buttons whose text starts with Create.
+Located all buttons whose text starts with 'Create'. Total elements: 1
+
+12. Locate the paragraph whose normalized text is In Stock.
+Located all the p elements whose normalized text is 'In Stock'. Total elements: 5
+
+13. Locate the paragraph whose normalized text contains years experience.
+Located all the elements whose normalized text contains 'years experience'. Total elements: 3
+
+14. Locate all product cards using robust whole-class-token matching for product-card.
+Located all the elements whose whole class is matching for product-id. Total elements: 6
+
+15. Locate the button whose complete string value is Deep Action
+Button with string value Deep Action is located.

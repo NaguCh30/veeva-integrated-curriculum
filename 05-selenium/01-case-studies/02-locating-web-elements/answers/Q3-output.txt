@@ -1,0 +1,59 @@
+1. Select the element with ID welcome-message.
+Element with ID 'welcome-message is selected.
+
+2. Select all elements with class product-card
+All elements with product-card class are selected. Total elements: 4
+
+3. Select all elements having both product-card and featured classes.
+All elements having both product-card and featured classes are selected. Total elements: 2
+
+ 4. Select all buttons having the class buy-button.
+All elements with class buy-button are selected. Total elements: 6
+
+5. Select the product card whose data-product-id is P104.
+Product card with data-product-id P104 is selected.
+
+6. Select all product cards whose data-category is electronics.
+All product cards with data-category electronics are selected. Total elements: 3
+
+7. Select all inputs having type='password'
+All elements with input type password are selected. Total elements: 4
+
+8. Select all inputs having a data-testid attribute.
+All elements with attribute data-testid are selected. Total elements: 9
+
+9. Select the registration username field using its data-testid.
+Registration username is selected with data-testid attribute.
+
+10. Select all elements whose class contains product.
+All elements with class contains product are selected. Total elements: 43
+
+11. Select the username and email fields inside the registration form.
+Both username and email are selected. Selected elements: 2
+
+12. Select only direct article children of the product grid.
+All direct article children for product grid are selected. Total elements: 6
+
+13. Select all paragraphs that are descendants of employee cards.
+All descendant P for employee cards are selected. Total elements: 9
+
+14. Select the first product card.
+First product card is selected.
+
+15. Select the last product card.
+Last product card is selected.
+
+16. Select all product cards except featured cards.
+All product cards selected except featured product cards. Total elements: 4
+
+17. Select all enabled Buy buttons.
+All enabled buy buttons are selected. Total elements: 5
+
+18. Select the disabled Buy button
+All disabled buy buttons are selected. Total elements: 1
+
+19. Select all checked checkboxes inside the product filters section.
+All checked check boxes are selected inside the filters section. Total elements: 0
+
+20. Select the h3 element that is a direct child of the inner panel.
+h3 element which direct child of inner panel is selected.

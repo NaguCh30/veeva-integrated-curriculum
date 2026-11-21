@@ -1,0 +1,19 @@
+Web Page Opened Successfully!
+
+1. Locate the dynamic username field using its stable name attribute.
+Located successfully!
+
+2. Locate the dynamic email field using its stable data-testid.
+Located successfully!
+
+3. Locate the dynamic password field using its class and type attributes.
+Located successfully!
+
+4. Locate the dynamic username field using starts-with() on its ID.
+Located successfully!
+
+5. Locate all three dynamic fields using their common class.
+Total elements located: 3
+
+6. Write a locator that identifies the dynamic email field without depending on its changing ID.
+Located successfully!

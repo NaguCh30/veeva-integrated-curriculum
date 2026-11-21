@@ -1,0 +1,37 @@
+Web Page Opened Successfully!
+
+1. Locate the parent of the Laptop Pro heading.
+Laptop Pro heading parent is located.
+
+2. Locate all direct children of the first product card.
+All direct children of the first product-card are selected. Total elements: 6
+
+3. Locate all descendants of the first product card.
+All descendants of the first product-card are selected. Total elements: 8
+
+4. Locate the employee card that contains the heading David.
+Employee card containing heading David is located.
+
+5. Locate the parent of the paragraph containing Tester.
+Located the parent of the paragraph containing text 'Tester'.
+
+6. Starting from the David heading, locate its following sibling paragraph.
+All p siblings from David heading are located. Total elements: 1
+
+7. Starting from the Tester paragraph, locate its preceding sibling heading
+All preceding siblings of paragraph with text 'Tester' are located. Total elements: 1
+
+8. Starting from the View Profile button inside John's card, locate the employee heading using a suitable relationship
+John heading located using view-profile button.
+
+9. Starting from the Laptop Pro heading, locate the Buy button using a descendant relationship.
+Laptop Pro buy button located.
+
+10. Starting from the Deep Action button, locate the outer panel using an ancestor relationship.
+Deep Action outer panel located using ancestor relationship.
+
+11. Starting from the Deep Panel heading, locate the paragraph that follows it as a sibling.
+Paragraph located from the Deep Panel heading.
+
+12. Locate the Inner Panel heading using the self axis after identifying it by text.
+Inner Panel heading is located using self axis.

@@ -1,0 +1,31 @@
+Web Page Opened Successfully!
+
+1. Locate the page header using its ID.
+Page Header Located.
+
+2. Locate the login username field using its ID.
+Login Username located using id().
+
+3. Locate the registration email field using its name.
+Registration Email Field located using name().
+
+4. Locate the login password field using its name.
+Login Password Located using name()
+
+5. Locate the primary action button using its class name.
+Primary Action Button Located using className()
+
+6. Locate all paragraph elements using their tag name.
+P elements located using tagName(). Total p elements: 54
+
+7. Locate the help link using its complete visible text.
+Element not found
+
+8. Locate the help link using only the partial text Dynamic.
+Element not found
+
+9. Locate the registration city dropdown using its ID.
+City Drop Down Located using id()
+
+10. Locate the summary button using its ID.
+Summary Button Located using id()

@@ -1,0 +1,38 @@
+Web Page Opened Successfully!
+
+1. Locate all elements having the class message.
+All elements with message class are located. Total elements: 3
+
+2. Locate all elements having the class form-control.
+
+All elements with form-control class are located. Total elements: 8
+
+3. Locate all buttons having the class action-button.
+All elements with action-button class are located. Total elements: 4
+
+4. Locate all product cards using their common class
+All elements with class product-card are located. Total elements: 6
+
+5. Locate all Buy buttons across the product cards.
+All buy buttons are located. Total elements: 6
+
+6. Locate all Details buttons across the product cards.
+All details buttons are located. Total elements: 6
+
+7. Locate all employee cards.
+All employee cards are located. Total elements: 3
+
+8. Locate all radio buttons belonging to the account-type group.
+All radio buttons belonging to the account-type are selected. Total elements: 3
+
+9. Locate all checkboxes belonging to the interests group.
+All checkboxes in interests group are selected. Total elements: 3
+
+10. Locate all checkboxes belonging to the product filters.
+All checkboxes in product filters are selected. Total elements: 4
+
+11. Locate the first product card using findElements() and retrieve its first element.
+First product card selected.
+
+12. Locate the fourth product card using a suitable locator strategy.
+4th product card located successfully using xpath

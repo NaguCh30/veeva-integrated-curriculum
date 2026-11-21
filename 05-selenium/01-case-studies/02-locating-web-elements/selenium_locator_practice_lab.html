@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selenium Locator Practice Lab</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f3f6fb;
+            color: #243247;
+            line-height: 1.5;
+        }
+
+        header {
+            background: #172b4d;
+            color: white;
+            padding: 28px 7%;
+        }
+
+        header h1 {
+            margin: 0 0 8px;
+            font-size: 30px;
+        }
+
+        header p {
+            margin: 0;
+            color: #d7e2f2;
+        }
+
+        nav {
+            background: #243d63;
+            padding: 12px 7%;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 18px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            width: min(1120px, 92%);
+            margin: 28px auto 60px;
+        }
+
+        section {
+            background: white;
+            padding: 24px;
+            margin-bottom: 24px;
+            border: 1px solid #dce4ef;
+            border-radius: 12px;
+            box-shadow: 0 3px 12px rgba(25, 45, 75, 0.045);
+        }
+
+        h2 {
+            margin: 0 0 8px;
+            color: #17365d;
+            font-size: 22px;
+        }
+
+        h3 {
+            margin: 0 0 8px;
+            color: #254b78;
+            font-size: 17px;
+        }
+
+        .section-intro {
+            margin: 0 0 20px;
+            color: #64748b;
+            font-size: 14px;
+        }
+
+        .info-box {
+            background: #edf5ff;
+            border-left: 4px solid #3976bd;
+            padding: 12px 15px;
+            border-radius: 5px;
+            margin: 14px 0;
+            font-size: 14px;
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 16px;
+        }
+
+        .field {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        label {
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 10px 12px;
+            border: 1px solid #bdc9d8;
+            border-radius: 6px;
+            font: inherit;
+            background: white;
+        }
+
+        input:focus, select:focus, textarea:focus {
+            outline: 2px solid #9cc5f3;
+            border-color: #3976bd;
+        }
+
+        input:disabled, button:disabled {
+            background: #e8edf3;
+            color: #8b98a9;
+            cursor: not-allowed;
+        }
+
+        .radio-row, .checkbox-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            margin-top: 8px;
+        }
+
+        .radio-row label, .checkbox-row label {
+            display: inline-flex;
+            align-items: center;
+            gap: 7px;
+            font-weight: 400;
+        }
+
+        .radio-row input, .checkbox-row input {
+            width: auto;
+        }
+
+        button, .button-link {
+            display: inline-block;
+            border: 0;
+            border-radius: 6px;
+            padding: 10px 15px;
+            background: #2463a6;
+            color: white;
+            cursor: pointer;
+            font: inherit;
+            text-decoration: none;
+        }
+
+        button:hover, .button-link:hover {
+            background: #174c87;
+        }
+
+        button.secondary {
+            background: #64748b;
+        }
+
+        button.danger {
+            background: #b54747;
+        }
+
+        button.success {
+            background: #287a57;
+        }
+
+        .button-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 16px;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 16px;
+        }
+
+        .product-card {
+            border: 1px solid #d8e1ec;
+            border-radius: 10px;
+            padding: 16px;
+            background: #fff;
+        }
+
+        .product-card.featured {
+            border: 2px solid #e0ad48;
+            background: #fffdf7;
+        }
+
+        .product-card h3 {
+            margin-bottom: 5px;
+        }
+
+        .product-category, .product-price, .product-stock, .product-rating {
+            margin: 5px 0;
+            font-size: 14px;
+        }
+
+        .product-category {
+            color: #64748b;
+        }
+
+        .product-price {
+            font-weight: 700;
+            color: #1f6b4c;
+        }
+
+        .out-of-stock {
+            color: #b54747;
+            font-weight: 700;
+        }
+
+        .in-stock {
+            color: #287a57;
+            font-weight: 700;
+        }
+
+        .product-card .action {
+            margin-top: 10px;
+            margin-right: 5px;
+        }
+
+        .filter-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 18px;
+            margin-top: 10px;
+        }
+
+        .filter-list label {
+            display: inline-flex;
+            align-items: center;
+            gap: 7px;
+            font-weight: 400;
+        }
+
+        .filter-list input {
+            width: auto;
+        }
+
+        .employee-list {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 14px;
+        }
+
+        .employee-card {
+            border: 1px solid #d8e1ec;
+            border-radius: 9px;
+            padding: 15px;
+        }
+
+        .employee-card h3 {
+            margin-bottom: 4px;
+        }
+
+        .employee-card p {
+            margin: 5px 0;
+            font-size: 14px;
+        }
+
+        .employee-details {
+            background: #f5f8fc;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 6px;
+        }
+
+        .nested-panel {
+            border: 1px dashed #9aabc0;
+            border-radius: 8px;
+            padding: 14px;
+            margin-top: 12px;
+        }
+
+        .nested-panel .inner-panel {
+            background: #f1f6fc;
+            padding: 12px;
+            border-radius: 6px;
+            margin-top: 10px;
+        }
+
+        .status {
+            font-size: 14px;
+            color: #52657d;
+            margin-top: 10px;
+        }
+
+        .small-note {
+            color: #64748b;
+            font-size: 12px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 22px;
+            color: #64748b;
+            font-size: 13px;
+        }
+
+        @media (max-width: 760px) {
+            .product-grid, .employee-list {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+        }
+
+        @media (max-width: 540px) {
+            .form-grid, .product-grid, .employee-list {
+                grid-template-columns: 1fr;
+            }
+
+            header h1 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+<header id="page-header">
+    <h1>Selenium Locator Practice Lab</h1>
+    <p>A purpose-built webpage for practising Selenium WebDriver element identification.</p>
+</header>
+
+<nav aria-label="Main navigation">
+    <a href="#basic-elements">Basic Elements</a>
+    <a href="#login-section">Login</a>
+    <a href="#registration-section">Registration</a>
+    <a href="#products-section">Products</a>
+    <a href="#filters-section">Filters</a>
+    <a href="#employees-section">Employees</a>
+    <a href="#nested-section">Nested DOM</a>
+    <a href="#dynamic-section">Dynamic IDs</a>
+</nav>
+
+<main>
+    <section id="basic-elements">
+        <h2>1. Basic Elements</h2>
+        <p class="section-intro">A small collection of elements for practising basic tag, ID, name and text-based locators.</p>
+
+        <div class="button-row">
+            <button id="primary-action" class="primary-action" type="button">Primary Action</button>
+            <button id="secondary-action" class="secondary" type="button">Secondary Action</button>
+            <button id="disabled-action" type="button" disabled>Disabled Action</button>
+        </div>
+
+        <p id="welcome-message" class="message">Welcome to the Selenium Locator Practice Lab.</p>
+        <p class="message">This is the second message with the same class.</p>
+        <p class="message">This is the third message with the same class.</p>
+
+        <a id="help-link" href="#dynamic-section">Go to Dynamic IDs</a>
+    </section>
+
+    <section id="login-section" class="form-section">
+        <h2>2. Login Form</h2>
+        <p class="section-intro">Username and password fields, repeated input types, and a button with identifiable text.</p>
+
+        <form id="login-form" autocomplete="off">
+            <div class="form-grid">
+                <div class="field">
+                    <label for="login-username">Username</label>
+                    <input id="login-username" name="username" class="form-control"
+                           type="text" placeholder="Enter username" data-testid="login-username">
+                </div>
+
+                <div class="field">
+                    <label for="login-password">Password</label>
+                    <input id="login-password" name="password" class="form-control"
+                           type="password" placeholder="Enter password" data-testid="login-password">
+                </div>
+            </div>
+
+            <div class="button-row">
+                <button id="login-button" class="action-button" type="button">Login</button>
+                <button id="reset-login" class="action-button secondary" type="reset">Reset</button>
+            </div>
+            <p id="login-status" class="status" aria-live="polite">Login status will appear here.</p>
+        </form>
+    </section>
+
+    <section id="registration-section" class="form-section">
+        <h2>3. Registration Form</h2>
+        <p class="section-intro">This section deliberately repeats classes, input types, names and placeholders.</p>
+
+        <form id="registration-form" autocomplete="off">
+            <div class="form-grid">
+                <div class="field">
+                    <label for="registration-username">Username</label>
+                    <input id="registration-username" name="account-name"
+                           class="form-control user-field" type="text"
+                           placeholder="Enter username" data-testid="registration-username">
+                </div>
+
+                <div class="field">
+                    <label for="registration-email">Email</label>
+                    <input id="registration-email" name="email"
+                           class="form-control user-field" type="email"
+                           placeholder="Enter email" data-testid="registration-email">
+                </div>
+
+                <div class="field">
+                    <label for="registration-password">Password</label>
+                    <input id="registration-password" name="new-password"
+                           class="form-control" type="password"
+                           placeholder="Create password">
+                </div>
+
+                <div class="field">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input id="confirm-password" name="confirm-password"
+                           class="form-control" type="password"
+                           placeholder="Confirm password">
+                </div>
+
+                <div class="field">
+                    <label for="registration-phone">Phone</label>
+                    <input id="registration-phone" name="phone"
+                           class="form-control" type="tel"
+                           placeholder="Phone number" disabled>
+                </div>
+
+                <div class="field">
+                    <label for="registration-city">City</label>
+                    <select id="registration-city" name="city" class="form-control">
+                        <option value="">Select city</option>
+                        <option value="tadepalligudem">Tadepalligudem</option>
+                        <option value="vijayawada">Vijayawada</option>
+                        <option value="hyderabad">Hyderabad</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="nested-panel">
+                <h3>Account Type</h3>
+                <div class="radio-row">
+                    <label><input type="radio" name="account-type" value="student"> Student</label>
+                    <label><input type="radio" name="account-type" value="professional"> Professional</label>
+                    <label><input type="radio" name="account-type" value="business"> Business</label>
+                </div>
+            </div>
+
+            <div class="nested-panel">
+                <h3>Interests</h3>
+                <div class="checkbox-row">
+                    <label><input type="checkbox" name="interest" value="technology"> Technology</label>
+                    <label><input type="checkbox" name="interest" value="sports"> Sports</label>
+                    <label><input type="checkbox" name="interest" value="music"> Music</label>
+                </div>
+            </div>
+
+            <div class="button-row">
+                <button id="register-button" class="action-button success" type="button">Create Account</button>
+                <button id="clear-registration" class="action-button secondary" type="reset">Clear Form</button>
+            </div>
+            <p id="registration-status" class="status" aria-live="polite">Registration status will appear here.</p>
+        </form>
+    </section>
+
+    <section id="products-section">
+        <h2>4. Product Catalogue</h2>
+        <p class="section-intro">Six product cards with repeated classes, nested elements, repeated buttons, and different product attributes.</p>
+
+        <div class="product-grid" id="product-grid">
+            <article class="product-card featured" data-product-id="P101" data-category="electronics">
+                <h3 class="product-name">Laptop Pro</h3>
+                <p class="product-category">Electronics</p>
+                <p class="product-price">₹65,000</p>
+                <p class="product-stock in-stock">In Stock</p>
+                <p class="product-rating">Rating: 4.8</p>
+                <div class="product-actions">
+                    <button class="action buy-button" data-action="buy" type="button">Buy</button>
+                    <button class="action details-button secondary" data-action="details" type="button">Details</button>
+                </div>
+            </article>
+
+            <article class="product-card" data-product-id="P102" data-category="electronics">
+                <h3 class="product-name">Smartphone X</h3>
+                <p class="product-category">Electronics</p>
+                <p class="product-price">₹28,000</p>
+                <p class="product-stock in-stock">In Stock</p>
+                <p class="product-rating">Rating: 4.5</p>
+                <div class="product-actions">
+                    <button class="action buy-button" data-action="buy" type="button">Buy</button>
+                    <button class="action details-button secondary" data-action="details" type="button">Details</button>
+                </div>
+            </article>
+
+            <article class="product-card featured" data-product-id="P103" data-category="accessories">
+                <h3 class="product-name">Wireless Headphones</h3>
+                <p class="product-category">Accessories</p>
+                <p class="product-price">₹3,500</p>
+                <p class="product-stock in-stock">In Stock</p>
+                <p class="product-rating">Rating: 4.6</p>
+                <div class="product-actions">
+                    <button class="action buy-button" data-action="buy" type="button">Buy</button>
+                    <button class="action details-button secondary" data-action="details" type="button">Details</button>
+                </div>
+            </article>
+
+            <article class="product-card" data-product-id="P104" data-category="accessories">
+                <h3 class="product-name">Mechanical Keyboard</h3>
+                <p class="product-category">Accessories</p>
+                <p class="product-price">₹5,200</p>
+                <p class="product-stock out-of-stock">Out of Stock</p>
+                <p class="product-rating">Rating: 4.2</p>
+                <div class="product-actions">
+                    <button class="action buy-button" data-action="buy" type="button" disabled>Buy</button>
+                    <button class="action details-button secondary" data-action="details" type="button">Details</button>
+                </div>
+            </article>
+
+            <article class="product-card" data-product-id="P105" data-category="electronics">
+                <h3 class="product-name">Monitor 27</h3>
+                <p class="product-category">Electronics</p>
+                <p class="product-price">₹18,000</p>
+                <p class="product-stock in-stock">In Stock</p>
+                <p class="product-rating">Rating: 4.4</p>
+                <div class="product-actions">
+                    <button class="action buy-button" data-action="buy" type="button">Buy</button>
+                    <button class="action details-button secondary" data-action="details" type="button">Details</button>
+                </div>
+            </article>
+
+            <article class="product-card" data-product-id="P106" data-category="accessories">
+                <h3 class="product-name">USB-C Hub</h3>
+                <p class="product-category">Accessories</p>
+                <p class="product-price">₹1,800</p>
+                <p class="product-stock in-stock">In Stock</p>
+                <p class="product-rating">Rating: 4.1</p>
+                <div class="product-actions">
+                    <button class="action buy-button" data-action="buy" type="button">Buy</button>
+                    <button class="action details-button secondary" data-action="details" type="button">Details</button>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="filters-section">
+        <h2>5. Product Filters</h2>
+        <p class="section-intro">Checkboxes deliberately share the same name and class. Use their parent section to narrow the search.</p>
+
+        <div class="filter-list">
+            <label><input type="checkbox" class="filter-option" name="category-filter" value="electronics"> Electronics</label>
+            <label><input type="checkbox" class="filter-option" name="category-filter" value="accessories"> Accessories</label>
+            <label><input type="checkbox" class="filter-option" name="category-filter" value="books"> Books</label>
+            <label><input type="checkbox" class="filter-option" name="category-filter" value="fashion"> Fashion</label>
+        </div>
+
+        <div class="button-row">
+            <button id="apply-filters" type="button">Apply Filters</button>
+            <button id="clear-filters" class="secondary" type="button">Clear Filters</button>
+        </div>
+        <p id="filter-status" class="status">No filters applied.</p>
+    </section>
+
+    <section id="employees-section">
+        <h2>6. Employee Directory</h2>
+        <p class="section-intro">Useful for locating a child element relative to a specific employee card and practising sibling/ancestor relationships.</p>
+
+        <div class="employee-list">
+            <article class="employee-card" data-employee-id="E201">
+                <h3 class="employee-name">John</h3>
+                <p class="employee-role">Developer</p>
+                <div class="employee-details">
+                    <p class="employee-experience">5 years experience</p>
+                    <p class="employee-location">Hyderabad</p>
+                </div>
+                <button class="view-profile" type="button">View Profile</button>
+            </article>
+
+            <article class="employee-card" data-employee-id="E202">
+                <h3 class="employee-name">David</h3>
+                <p class="employee-role">Tester</p>
+                <div class="employee-details">
+                    <p class="employee-experience">3 years experience</p>
+                    <p class="employee-location">Bengaluru</p>
+                </div>
+                <button class="view-profile" type="button">View Profile</button>
+            </article>
+
+            <article class="employee-card" data-employee-id="E203">
+                <h3 class="employee-name">Mike</h3>
+                <p class="employee-role">Designer</p>
+                <div class="employee-details">
+                    <p class="employee-experience">4 years experience</p>
+                    <p class="employee-location">Chennai</p>
+                </div>
+                <button class="view-profile" type="button">View Profile</button>
+            </article>
+        </div>
+    </section>
+
+    <section id="nested-section">
+        <h2>7. Nested DOM Structure</h2>
+        <p class="section-intro">A deliberately nested structure for practising descendant, child, parent and relative locating.</p>
+
+        <div class="nested-panel" id="outer-panel">
+            <h3>Outer Panel</h3>
+            <p class="outer-description">This paragraph is a direct child of the outer panel.</p>
+
+            <div class="inner-panel" id="inner-panel">
+                <h3>Inner Panel</h3>
+                <p class="inner-description">This paragraph is inside the inner panel.</p>
+
+                <div class="deep-panel" id="deep-panel">
+                    <h3>Deep Panel</h3>
+                    <p class="deep-description">This paragraph is nested three levels deep.</p>
+                    <button id="deep-action" class="nested-action" type="button">Deep Action</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="dynamic-section">
+        <h2>8. Dynamic ID Demonstration</h2>
+        <p class="section-intro">The IDs in this section are generated when the page loads. Refresh the page to see them change.</p>
+
+        <div class="info-box">
+            Inspect these inputs in Chrome DevTools before and after refreshing. Their <strong>name</strong> and
+            <strong>data-testid</strong> attributes remain stable, but their IDs change.
+        </div>
+
+        <div class="form-grid">
+            <div class="field">
+                <label for="dynamic-username">Dynamic Username</label>
+                <input id="dynamic-username" name="dynamicUsername" class="dynamic-field"
+                       type="text" placeholder="Dynamic username" data-testid="dynamic-username">
+            </div>
+
+            <div class="field">
+                <label for="dynamic-email">Dynamic Email</label>
+                <input id="dynamic-email" name="dynamicEmail" class="dynamic-field"
+                       type="email" placeholder="Dynamic email" data-testid="dynamic-email">
+            </div>
+
+            <div class="field">
+                <label for="dynamic-password">Dynamic Password</label>
+                <input id="dynamic-password" name="dynamicPassword" class="dynamic-field"
+                       type="password" placeholder="Dynamic password" data-testid="dynamic-password">
+            </div>
+        </div>
+
+        <p class="small-note">ID pattern: dynamic-username-RANDOM, dynamic-email-RANDOM, dynamic-password-RANDOM.</p>
+    </section>
+
+    <section id="locator-summary">
+        <h2>9. Locator Reference Area</h2>
+        <p class="section-intro">A compact set of stable attributes to support reusable locator exercises.</p>
+
+        <div class="info-box">
+            Useful stable attributes include <code>data-testid</code>, <code>name</code>,
+            <code>data-product-id</code>, and <code>data-employee-id</code>.
+            They are included intentionally so you can compare them with positional or fragile locators.
+        </div>
+
+        <button id="summary-button" data-testid="summary-button" type="button">Summary Button</button>
+        <p data-testid="summary-message" class="summary-message">Stable test attribute example.</p>
+    </section>
+</main>
+
+<footer>
+    Selenium Locator Practice Lab · Static practice content with load-generated dynamic IDs
+</footer>
+
+<script>
+    // Generate a new suffix each time the page loads.
+    // The prefix remains predictable; the numeric suffix changes.
+    function createDynamicSuffix() {
+        return Math.floor(100000 + Math.random() * 900000);
+    }
+
+    document.getElementById("dynamic-username").id =
+        "dynamic-username-" + createDynamicSuffix();
+
+    document.getElementById("dynamic-email").id =
+        "dynamic-email-" + createDynamicSuffix();
+
+    document.getElementById("dynamic-password").id =
+        "dynamic-password-" + createDynamicSuffix();
+
+    // Small interactions make the practice page feel realistic.
+    document.getElementById("login-button").addEventListener("click", function () {
+        document.getElementById("login-status").textContent =
+            "Login button was clicked.";
+    });
+
+    document.getElementById("register-button").addEventListener("click", function () {
+        document.getElementById("registration-status").textContent =
+            "Create Account button was clicked.";
+    });
+
+    document.getElementById("apply-filters").addEventListener("click", function () {
+        const selected = Array.from(
+            document.querySelectorAll("#filters-section input[name='category-filter']:checked")
+        ).map(function (checkbox) {
+            return checkbox.value;
+        });
+
+        document.getElementById("filter-status").textContent =
+            selected.length ? "Selected filters: " + selected.join(", ") : "No filters selected.";
+    });
+
+    document.getElementById("clear-filters").addEventListener("click", function () {
+        document.querySelectorAll("#filters-section input[name='category-filter']")
+            .forEach(function (checkbox) {
+                checkbox.checked = false;
+            });
+
+        document.getElementById("filter-status").textContent = "No filters applied.";
+    });
+
+    document.querySelectorAll(".buy-button").forEach(function (button) {
+        button.addEventListener("click", function () {
+            const product = button.closest(".product-card");
+            const productName = product.querySelector(".product-name").textContent;
+            alert("Buy clicked for: " + productName);
+        });
+    });
+
+    document.querySelectorAll(".view-profile").forEach(function (button) {
+        button.addEventListener("click", function () {
+            const employee = button.closest(".employee-card");
+            const employeeName = employee.querySelector(".employee-name").textContent;
+            alert("Viewing profile: " + employeeName);
+        });
+    });
+</script>
+</body>
+</html>

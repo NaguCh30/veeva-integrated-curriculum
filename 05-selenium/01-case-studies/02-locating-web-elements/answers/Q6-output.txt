@@ -1,0 +1,48 @@
+Web Page Opened Successfully!
+
+1. Locate all inputs whose type is text and whose class contains form-control.
+Located all inputs with above requirements. Total elements: 2
+
+2. Locate inputs whose type is either email or tel.
+Total elements located: 3
+
+3. Locate all product cards that are featured and belong to the accessories category.
+Total elements located: 1
+
+4. Locate all product cards that are not featured.
+Total elements located: 4
+
+5. Locate the first product card globally.
+First product card located globally successfully.
+
+6. Locate the third product card globally.
+
+Third product card located globally successfully.
+
+7. Locate the last product card globally.
+
+Last product card located globally successfully.
+
+8. Locate the first paragraph inside every employee card.
+Total elements located: 6
+
+9. Locate the last paragraph inside every employee card.
+Total elements located: 3
+
+10. Locate the second product card's heading.
+Located the second product card heading successfully!
+
+11. Locate the second product card's heading.
+Total elements located: 2
+
+12. Locate product cards at positions 2 and 4.
+Total elements located: 2
+
+13. Locate the product card that contains a paragraph with text Out of Stock
+Located successfully!
+
+14. Locate the product card that contains a disabled Buy button.
+Located successfully!
+
+15. Locate the employee card that contains the role Tester.
+Located successfully!
