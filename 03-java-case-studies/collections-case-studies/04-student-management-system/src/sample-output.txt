@@ -1,0 +1,237 @@
+1. Get students by name.
+2. Get student details by ID.
+3. Get student marks by ID.
+4. Insert student. (If exist marks will be updated.)
+5. Remove student by ID.
+6. Check student existence with ID.
+7. Exit
+
+Enter your choice: 4
+
+Enter student details
+Student ID: 101
+Student Name: Nagu
+Student Marks: 99
+Student details: ID: 101, Name: Nagu, Marks: 99.0, Grade: A
+
+1. Get students by name.
+2. Get student details by ID.
+3. Get student marks by ID.
+4. Insert student. (If exist marks will be updated.)
+5. Remove student by ID.
+6. Check student existence with ID.
+7. Exit
+
+Enter your choice: 4
+
+Enter student details
+Student ID: 102
+Student Name: Ramu
+Student Marks: 65
+Student details: ID: 102, Name: Ramu, Marks: 65.0, Grade: D
+
+1. Get students by name.
+2. Get student details by ID.
+3. Get student marks by ID.
+4. Insert student. (If exist marks will be updated.)
+5. Remove student by ID.
+6. Check student existence with ID.
+7. Exit
+
+Enter your choice: 4
+
+Enter student details
+Student ID: 102
+Student Name: Rajesh
+Student Marks: 80
+Student already existed.
+Marks updated.
+Student details: ID: 102, Name: Ramu, Marks: 80.0, Grade: B
+
+1. Get students by name.
+2. Get student details by ID.
+3. Get student marks by ID.
+4. Insert student. (If exist marks will be updated.)
+5. Remove student by ID.
+6. Check student existence with ID.
+7. Exit
+
+Enter your choice: 4
+
+Enter student details
+Student ID: 103
+Student Name: Ramu
+Student Marks: 81
+Student details: ID: 103, Name: Ramu, Marks: 81.0, Grade: B
+
+1. Get students by name.
+2. Get student details by ID.
+3. Get student marks by ID.
+4. Insert student. (If exist marks will be updated.)
+5. Remove student by ID.
+6. Check student existence with ID.
+7. Exit
+
+Enter your choice: 4
+
+Enter student details
+Student ID: 104
+Student Name: Ramesh
+Student Marks: 55
+Student details: ID: 104, Name: Ramesh, Marks: 55.0, Grade: E
+
+1. Get students by name.
+2. Get student details by ID.
+3. Get student marks by ID.
+4. Insert student. (If exist marks will be updated.)
+5. Remove student by ID.
+6. Check student existence with ID.
+7. Exit
+
+Enter your choice: 4
+
+Enter student details
+Student ID: 105
+Student Name: Kumar
+Student Marks: 30
+Student details: ID: 105, Name: Kumar, Marks: 30.0, Grade: F
+
+1. Get students by name.
+2. Get student details by ID.
+3. Get student marks by ID.
+4. Insert student. (If exist marks will be updated.)
+5. Remove student by ID.
+6. Check student existence with ID.
+7. Exit
+
+Enter your choice: 2
+
+Enter student ID to get details: 101
+ID: 101, Name: Nagu, Marks: 99.0, Grade: A
+
+1. Get students by name.
+2. Get student details by ID.
+3. Get student marks by ID.
+4. Insert student. (If exist marks will be updated.)
+5. Remove student by ID.
+6. Check student existence with ID.
+7. Exit
+
+Enter your choice: Invalid input please enter a valid choice as number.
+
+1. Get students by name.
+2. Get student details by ID.
+3. Get student marks by ID.
+4. Insert student. (If exist marks will be updated.)
+5. Remove student by ID.
+6. Check student existence with ID.
+7. Exit
+
+Enter your choice: 1
+
+Enter name to search for matching students: ramu
+
+Matching students:
+ID: 102, Name: Ramu, Marks: 80.0, Grade: B
+ID: 103, Name: Ramu, Marks: 81.0, Grade: B
+
+1. Get students by name.
+2. Get student details by ID.
+3. Get student marks by ID.
+4. Insert student. (If exist marks will be updated.)
+5. Remove student by ID.
+6. Check student existence with ID.
+7. Exit
+
+Enter your choice: 5
+
+Enter student ID to remove student: 103
+Student with ID 103 removed successfully!
+
+1. Get students by name.
+2. Get student details by ID.
+3. Get student marks by ID.
+4. Insert student. (If exist marks will be updated.)
+5. Remove student by ID.
+6. Check student existence with ID.
+7. Exit
+
+Enter your choice: 5
+
+Enter student ID to remove student: 103
+Student with ID 103 not exist!
+
+1. Get students by name.
+2. Get student details by ID.
+3. Get student marks by ID.
+4. Insert student. (If exist marks will be updated.)
+5. Remove student by ID.
+6. Check student existence with ID.
+7. Exit
+
+Enter your choice: 2
+
+Enter student ID to get details: 102
+ID: 102, Name: Ramu, Marks: 80.0, Grade: B
+
+1. Get students by name.
+2. Get student details by ID.
+3. Get student marks by ID.
+4. Insert student. (If exist marks will be updated.)
+5. Remove student by ID.
+6. Check student existence with ID.
+7. Exit
+
+Enter your choice: Invalid input please enter a valid choice as number.
+
+1. Get students by name.
+2. Get student details by ID.
+3. Get student marks by ID.
+4. Insert student. (If exist marks will be updated.)
+5. Remove student by ID.
+6. Check student existence with ID.
+7. Exit
+
+Enter your choice: 6
+
+Enter student ID to check existence: 102
+Student with ID 102 existed.
+
+1. Get students by name.
+2. Get student details by ID.
+3. Get student marks by ID.
+4. Insert student. (If exist marks will be updated.)
+5. Remove student by ID.
+6. Check student existence with ID.
+7. Exit
+
+Enter your choice: 6
+
+Enter student ID to check existence: 103
+Student with ID 103 not exists!
+
+1. Get students by name.
+2. Get student details by ID.
+3. Get student marks by ID.
+4. Insert student. (If exist marks will be updated.)
+5. Remove student by ID.
+6. Check student existence with ID.
+7. Exit
+
+Enter your choice: 1
+
+Enter name to search for matching students: ramu
+
+Matching students:
+ID: 102, Name: Ramu, Marks: 80.0, Grade: B
+
+1. Get students by name.
+2. Get student details by ID.
+3. Get student marks by ID.
+4. Insert student. (If exist marks will be updated.)
+5. Remove student by ID.
+6. Check student existence with ID.
+7. Exit
+
+Enter your choice: 7
+Exiting from the program...
